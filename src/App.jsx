@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import Header from './components/Header';
 import OverviewView from './components/OverviewView';
+import DashboardView from './components/DashboardView';
 import EvidenceGallery from './components/EvidenceGallery';
 import ArtifactsPortal from './components/ArtifactsPortal';
 import PeopleShowcase from './components/PeopleShowcase';
@@ -16,7 +17,7 @@ export default function App() {
   const [currentTab, setCurrentTabState] = useState(() => {
     if (typeof window !== 'undefined') {
       const hash = window.location.hash.replace('#', '');
-      if (['overview', 'portfolio', 'atmosphere', 'artifacts', 'people', 'documents', 'report'].includes(hash)) {
+      if (['overview', 'dashboard', 'portfolio', 'atmosphere', 'artifacts', 'people', 'documents', 'report'].includes(hash)) {
         return hash;
       }
     }
@@ -33,7 +34,7 @@ export default function App() {
   useEffect(() => {
     const handleHashChange = () => {
       const hash = window.location.hash.replace('#', '');
-      if (['overview', 'portfolio', 'atmosphere', 'artifacts', 'people', 'documents', 'report'].includes(hash)) {
+      if (['overview', 'dashboard', 'portfolio', 'atmosphere', 'artifacts', 'people', 'documents', 'report'].includes(hash)) {
         setCurrentTabState(hash);
       }
     };
@@ -72,6 +73,13 @@ export default function App() {
       <main className="flex-1 max-w-7xl w-full mx-auto px-4 sm:px-6 pt-6 sm:pt-8">
         {currentTab === 'overview' && (
           <OverviewView 
+            setCurrentTab={setCurrentTab} 
+            onOpenEvidence={(item) => setSelectedMedia(item)} 
+          />
+        )}
+
+        {currentTab === 'dashboard' && (
+          <DashboardView 
             setCurrentTab={setCurrentTab} 
             onOpenEvidence={(item) => setSelectedMedia(item)} 
           />

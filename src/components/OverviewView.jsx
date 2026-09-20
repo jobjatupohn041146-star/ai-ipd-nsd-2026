@@ -13,19 +13,20 @@ import {
   Zap,
   Camera,
   Flame,
-  CheckCircle2
+  CheckCircle2,
+  FileText
 } from 'lucide-react';
 
 export default function OverviewView({ setCurrentTab, onOpenEvidence }) {
   const kpis = [
-    { label: 'เป้าหมายรายได้รวม 5 ปี', value: '฿10B', change: 'ลาดพร้าว + วัฒนะวิภา 2570', icon: TrendingUp, color: 'text-orange-600', badgeBg: 'bg-orange-50 text-orange-700 border-orange-200', gradient: 'from-orange-50/60 to-white' },
-    { label: 'อัตราเติบโตรายได้บริการ', value: '+20%', change: 'สกัดรอยรั่ว & Referral', icon: Zap, color: 'text-blue-600', badgeBg: 'bg-blue-50 text-blue-700 border-blue-200', gradient: 'from-blue-50/60 to-white' },
+    { label: 'อัตราสำเร็จการอบรม', value: '100%', change: '13 แผนกพยาบาลแกนนำผ่านครบ', icon: Award, color: 'text-blue-600', badgeBg: 'bg-blue-50 text-blue-700 border-blue-200', gradient: 'from-blue-50/60 to-white' },
+    { label: 'นวัตกรรม AI ที่สร้างได้', value: '23 ระบบ', change: '18 Gems · 3 Skills · 2 Apps', icon: Sparkles, color: 'text-purple-600', badgeBg: 'bg-purple-50 text-purple-700 border-purple-200', gradient: 'from-purple-50/60 to-white' },
     { label: 'Follow-up Adherence', value: '85%', change: 'นัดหมายต่อเนื่องกลุ่มซับซ้อน', icon: HeartHandshake, color: 'text-emerald-600', badgeBg: 'bg-emerald-50 text-emerald-700 border-emerald-200', gradient: 'from-emerald-50/60 to-white' },
-    { label: 'Referral Conversion', value: '35%', change: 'ส่งต่อเข้าสู่ศูนย์ความเป็นเลิศ', icon: Award, color: 'text-purple-600', badgeBg: 'bg-purple-50 text-purple-700 border-purple-200', gradient: 'from-purple-50/60 to-white' },
+    { label: 'ความพึงพอใจการอบรม', value: '98.5%', change: 'ผลประเมินระดับดีเยี่ยม', icon: TrendingUp, color: 'text-amber-600', badgeBg: 'bg-amber-50 text-amber-700 border-amber-200', gradient: 'from-amber-50/60 to-white' },
     { label: '1-Click ISBAR Handover', value: '2 วินาที', change: 'ลดเวลาสรุปส่งเวรทันใจ', icon: Clock, color: 'text-sky-600', badgeBg: 'bg-sky-50 text-sky-700 border-sky-200', gradient: 'from-sky-50/60 to-white' },
     { label: 'Critical Response Time', value: '≤ 3 นาที', change: 'มาตรฐาน JCI IPSG.2 ขั้นวิกฤต', icon: Activity, color: 'text-rose-600', badgeBg: 'bg-rose-50 text-rose-700 border-rose-200', gradient: 'from-rose-50/60 to-white' },
     { label: 'ลด Alarm Fatigue', value: '40-60%', change: 'กรองสัญญาณรบกวนในวอร์ด', icon: ShieldCheck, color: 'text-teal-600', badgeBg: 'bg-teal-50 text-teal-700 border-teal-200', gradient: 'from-teal-50/60 to-white' },
-    { label: 'คืนเวลาดูแลคนไข้', value: '35%', change: 'ลดงานเอกสารและคีย์ข้อมูล', icon: Sparkles, color: 'text-indigo-600', badgeBg: 'bg-indigo-50 text-indigo-700 border-indigo-200', gradient: 'from-indigo-50/60 to-white' },
+    { label: 'คืนเวลาดูแลคนไข้', value: '35%', change: 'ลดงานเอกสารและคีย์ข้อมูล', icon: Zap, color: 'text-indigo-600', badgeBg: 'bg-indigo-50 text-indigo-700 border-indigo-200', gradient: 'from-indigo-50/60 to-white' },
   ];
 
   const pillars = [
@@ -68,38 +69,45 @@ export default function OverviewView({ setCurrentTab, onOpenEvidence }) {
       {/* Hero Section (White & Blue Executive Banner) */}
       <div className="relative rounded-3xl overflow-hidden border border-blue-100 bg-gradient-to-br from-white via-[#f0f7ff] to-[#e0f2fe] p-6 sm:p-10 shadow-xl shadow-blue-500/5">
         <div className="absolute -top-10 -right-10 w-96 h-96 bg-blue-400/10 rounded-full blur-3xl pointer-events-none"></div>
-        <div className="absolute bottom-0 right-10 w-80 h-80 bg-orange-400/10 rounded-full blur-2xl pointer-events-none"></div>
+        <div className="absolute bottom-0 right-10 w-80 h-80 bg-blue-400/10 rounded-full blur-2xl pointer-events-none"></div>
         
         <div className="relative z-10 max-w-4xl space-y-4">
           <div className="inline-flex items-center gap-2 px-3.5 py-1 rounded-full text-xs font-extrabold bg-blue-100 text-blue-800 border border-blue-200 shadow-xs">
             <Sparkles className="w-3.5 h-3.5 text-blue-600" />
-            <span>EXECUTIVE STRATEGIC NORTH STAR</span>
+            <span>EXECUTIVE TRAINING REPORT &amp; NURSING AI WORKFLOW</span>
           </div>
 
           <h2 className="text-2xl sm:text-4xl font-extrabold text-slate-900 tracking-tight leading-snug">
-            From Clinical Care to <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-700 via-sky-600 to-blue-800">Category Leadership</span>
+            สรุปผลสัมฤทธิ์ <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-700 via-sky-600 to-blue-800">โครงการอบรม AI Strategy &amp; Inpatient Nursing Workflow</span>
           </h2>
 
           <p className="text-sm sm:text-base text-slate-600 leading-relaxed font-normal">
-            ระบบคิดเชิงกลยุทธ์สำหรับหัวหน้าพยาบาลผู้ป่วยใน (IPD) และฝ่ายการพยาบาล (NSD) โรงพยาบาลเวชธานี
-            ที่เปลี่ยนความเป็นเลิศทางคลินิก (Clinical Excellence) ให้กลายเป็นการเติบโตทางธุรกิจที่วัดผลได้จริง 
-            พร้อมรองรับการเปิดตัว <strong>"โรงพยาบาลเวชธานี วัฒนะวิภา"</strong> สู่เป้าหมายรายได้รวม 10,000 ล้านบาท
+            หลักสูตรเชิงปฏิบัติการระดับผู้บริหารและพยาบาลวิชาชีพแกนนำ โรงพยาบาลเวชธานี (AI IPD / NSD 2026) 
+            ที่เปลี่ยนการทำงานประจำวันสู่ระบบอัตโนมัติ <strong>ยกระดับความเป็นเลิศทางคลินิก (Clinical Excellence)</strong> 
+            สร้างสรรค์นวัตกรรม AI Gems และปัญญาประดิษฐ์ทางการพยาบาลพร้อมใช้งานจริง 23 ระบบ
           </p>
 
           <div className="pt-3 flex flex-wrap gap-3">
             <button
-              onClick={() => setCurrentTab('report')}
-              className="px-5 py-2.5 rounded-xl bg-gradient-to-r from-blue-600 to-sky-600 hover:from-blue-700 hover:to-sky-700 text-white font-bold text-xs sm:text-sm shadow-md shadow-blue-600/30 flex items-center gap-2 transition-all cursor-pointer transform hover:-translate-y-0.5"
+              onClick={() => setCurrentTab('dashboard')}
+              className="px-5 py-2.5 rounded-xl bg-gradient-to-r from-blue-700 to-indigo-800 hover:from-blue-600 hover:to-indigo-700 text-white font-bold text-xs sm:text-sm shadow-md shadow-blue-600/20 flex items-center gap-2 transition-all cursor-pointer transform hover:-translate-y-0.5"
             >
-              <span>อ่านรายงานผู้บริหาร 10 หน้าเต็ม</span>
+              <span>ดู Dashboard ผลการอบรม</span>
               <ArrowRight className="w-4 h-4" />
+            </button>
+            <button
+              onClick={() => setCurrentTab('report')}
+              className="px-4 py-2.5 rounded-xl bg-white hover:bg-slate-50 text-blue-900 border border-blue-200 font-bold text-xs sm:text-sm flex items-center gap-2 transition-all cursor-pointer shadow-xs transform hover:-translate-y-0.5"
+            >
+              <FileText className="w-4 h-4 text-blue-600" />
+              <span>อ่านรายงาน A4 ผลการอบรม (10 หน้า)</span>
             </button>
             <button
               onClick={() => setCurrentTab('portfolio')}
               className="px-4 py-2.5 rounded-xl bg-white hover:bg-slate-50 text-blue-900 border border-blue-200 font-bold text-xs sm:text-sm flex items-center gap-2 transition-all cursor-pointer shadow-xs transform hover:-translate-y-0.5"
             >
               <Sparkles className="w-4 h-4 text-blue-600" />
-              <span>ภาพผลงาน &amp; ยุทธศาสตร์ระบบ</span>
+              <span>ภาพผลงาน &amp; ยุทธศาสตร์</span>
             </button>
             <button
               onClick={() => setCurrentTab('atmosphere')}

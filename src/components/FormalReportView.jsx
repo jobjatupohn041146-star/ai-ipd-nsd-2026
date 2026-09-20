@@ -163,7 +163,7 @@ export default function FormalReportView({ pages }) {
 
                 {/* Footer */}
                 <div className="border-t border-slate-300 pt-3 flex items-center justify-between text-[10px] text-slate-500">
-                  <span>โรงพยาบาลเวชธานี และโรงพยาบาลเวชธานี วัฒนะวิภา</span>
+                  <span>โรงพยาบาลเวชธานี · Vejthani Hospital (ฝ่ายการพยาบาลผู้ป่วยใน IPD / NSD)</span>
                   <span className="font-mono font-bold text-slate-700">หน้า {page.pageNumber} / 10</span>
                 </div>
               </div>
@@ -262,7 +262,7 @@ export default function FormalReportView({ pages }) {
 
               {/* Footer */}
               <div className="border-t border-slate-300 pt-3 flex items-center justify-between text-[10px] text-slate-500">
-                <span>โรงพยาบาลเวชธานี และโรงพยาบาลเวชธานี วัฒนะวิภา</span>
+                <span>โรงพยาบาลเวชธานี · Vejthani Hospital (ฝ่ายการพยาบาลผู้ป่วยใน IPD / NSD)</span>
                 <span className="font-mono font-bold text-slate-700">หน้า {page.pageNumber} / 10</span>
               </div>
             </div>

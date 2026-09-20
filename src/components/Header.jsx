@@ -23,13 +23,14 @@ export default function Header({
   peopleCount 
 }) {
   const navItems = [
-    { id: 'overview', label: 'ภาพรวมผู้บริหาร', sub: 'BLUF & KPIs', icon: Activity },
+    { id: 'overview', label: 'ภาพรวมโครงการ', sub: 'Executive Summary', icon: Activity },
+    { id: 'dashboard', label: 'Dashboard ผลการอบรม', sub: 'Analytics & KPIs', icon: LayoutGrid, highlightColor: 'from-blue-600 to-indigo-600' },
     { id: 'portfolio', label: 'ภาพผลงาน & ยุทธศาสตร์', sub: 'Architecture & CI', icon: Sparkles, badge: portfolioCount, highlightColor: 'from-blue-600 to-sky-600' },
     { id: 'atmosphere', label: 'ภาพบรรยากาศการอบรมจริง', sub: 'Day 1 & Day 2', icon: Camera, badge: atmosphereCount, highlightColor: 'from-emerald-600 to-teal-600' },
-    { id: 'artifacts', label: 'คลังคำสั่ง AI & Gems', sub: 'GitHub Style', icon: Flame, badge: artifactsCount, highlightColor: 'from-purple-600 to-indigo-600' },
+    { id: 'artifacts', label: 'คลังคำสั่ง AI & Gems', sub: '23 AI Repos', icon: Flame, badge: artifactsCount, highlightColor: 'from-purple-600 to-indigo-600' },
     { id: 'people', label: 'ทำเนียบผู้นำ & พยาบาล', sub: '16 Champions', icon: Users, badge: peopleCount },
-    { id: 'documents', label: 'เอกสาร & สไลด์ทางการ', sub: 'PDF, PPTX, ZIP', icon: Layers, badge: docsCount },
-    { id: 'report', label: 'รายงาน A4 ฉบับทางการ', sub: '10-Page Formal Report', icon: FileText, special: true },
+    { id: 'documents', label: 'เอกสาร & สไลด์', sub: 'PDF, PPTX, ZIP', icon: Layers, badge: docsCount },
+    { id: 'report', label: 'รายงาน A4 ผลการอบรม', sub: '10-Page Report', icon: FileText, special: true },
   ];
 
   return (
@@ -42,14 +43,14 @@ export default function Header({
             VEJTHANI HOSPITAL · JCI ACCREDITED
           </span>
           <span className="text-white/40 hidden sm:inline">|</span>
-          <span className="text-sky-100 hidden sm:inline">โรงพยาบาลเวชธานี ลาดพร้าว &amp; เวชธานี วัฒนะวิภา 2570</span>
+          <span className="text-sky-100 hidden sm:inline">ฝ่ายการพยาบาล (NSD) &amp; ฝ่ายผู้ป่วยใน (IPD)</span>
         </div>
         <div className="flex items-center gap-4 text-sky-100 text-[11px] font-medium">
           <span className="flex items-center gap-1 bg-white/10 px-2 py-0.5 rounded-full border border-white/20">
             <ShieldCheck className="w-3.5 h-3.5 text-emerald-300" /> PDPA Zero-Leakage Safe
           </span>
-          <span className="hidden md:inline bg-orange-500/20 text-orange-200 border border-orange-400/30 px-2 py-0.5 rounded-full font-mono font-bold">
-            🎯 Road to ฿10B (5-Year Strategy)
+          <span className="hidden md:inline bg-white/10 text-sky-200 border border-white/20 px-2.5 py-0.5 rounded-full font-mono font-bold">
+            🏆 100% Certified (13 Departments)
           </span>
         </div>
       </div>

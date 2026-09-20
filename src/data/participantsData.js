@@ -9,7 +9,7 @@ export const participantsData = [
     "badge": "Chief AI Advisor",
     "responsibilities": "วางกรอบแนวคิด C.A.R.E.S. และ Graph of Thought พัฒนาระบบต้นแบบ Vejthani Clinical EWS & Inpatient Workflow และโค้ชชิ่งผู้บริหารพยาบาล",
     "aiExperience": "ผู้เชี่ยวชาญการประยุกต์ใช้ AI ในธุรกิจสุขภาพและโรงพยาบาลระดับสากล, Prompt Engineering ขั้นสูง",
-    "aiGoal": "ถ่ายทอดโมเดล AI Native Hospital ให้กับโรงพยาบาลเวชธานี เพื่อก้าวสู่เป้าหมาย 10,000 ล้านบาทอย่างมั่นคง",
+    "aiGoal": "ถ่ายทอดโมเดล AI-Native Inpatient Nursing Workflow ให้กับโรงพยาบาลเวชธานี เพื่อยกระดับสู่มาตรฐานการดูแลผู้ป่วยระดับสากล",
     "aiTools": [
       "C.A.R.E.S. Engine",
       "Graph of Thought",
@@ -45,7 +45,7 @@ export const participantsData = [
     "badge": "Project Lead",
     "responsibilities": "ริเริ่มและขับเคลื่อนสถาปัตยกรรม IDP Builder และ E-Book Builder ร่วมกับทีมพยาบาล ประสานงานจัดอบรมเชิงปฏิบัติการ",
     "aiExperience": "idp-builder-vejthani-hospital, vejthani-ebook-builder, Prompt Architecture",
-    "aiGoal": "ยกระดับสมรรถนะบุคลากรการพยาบาลรายบุคคล (IDP) ให้พร้อมรองรับโรงพยาบาลเวชธานี วัฒนะวิภา",
+    "aiGoal": "ยกระดับสมรรถนะบุคลากรการพยาบาลรายบุคคล (IDP) สู่การเป็นพยาบาลยุคดิจิทัลที่เชี่ยวชาญ AI",
     "aiTools": [
       "idp-builder-vejthani-hospital",
       "vejthani-ebook-builder",
