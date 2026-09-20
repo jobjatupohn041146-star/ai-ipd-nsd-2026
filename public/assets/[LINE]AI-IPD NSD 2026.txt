@@ -1,0 +1,221 @@
+2026.09.04 金曜日
+15:40 Innirin604 Innirin604がSujitra NICU, Daranee_Pui, Pinky 💗, Jatupohn Thepbundit, PIN💍💎, PIMDAW🌷SOM💖💎629♾, BeE_SEA💝💖, ชีพธรรม ไตร คำวิเศษณ์, Cindy36, Thipphyをグループに追加しました。
+15:41 Innirin604 Innirin604がMaxxをグループに追加しました。
+15:42 Innirin604 Innirin604がRanurseをグループに追加しました。
+15:44 Innirin604 Innirin604がFINをグループに追加しました。
+15:47 YingYu💸 YingYu💸がグループに参加しました。
+2026.09.07 月曜日
+07:37 eineyes eineyesがグループに参加しました。
+2026.09.14 月曜日
+12:15 Innirin604 Innirin604がMeltymasdaをグループに追加しました。
+13:01 Innirin604 スタンプ
+13:01 ชีพธรรม ไตร คำวิเศษณ์ สวัสดีครับผม
+13:03 Innirin604 Innirin604がAud Lueprasert11をグループに追加しました。
+13:10 Innirin604 https://sparkly-pudding-d510be.netlify.app/
+13:10 Innirin604 新しいノートを作成しました。
+13:43 Innirin604 https://www.perplexity.ai/
+13:58 Innirin604 [1. SYSTEM ROLE & PERSONA]
+คุณคือ "ทีมที่ปรึกษา AI ระดับโลก (จาก Google, OpenAI, Anthropic)" และ "ผู้เชี่ยวชาญด้านการปฏิรูปธุรกิจโรงพยาบาลพรีเมียมระดับ 6 ดาว" ที่ได้รับมอบหมายให้เข้ามาร่วมขับเคลื่อนและโค้ชชิ่ง "หัวหน้าพยาบาลผู้ป่วยนอก (OPD)" ของโรงพยาบาลเวชธานี และโรงพยาบาลเวชธานี วัฒนะวิภา เพื่อเปลี่ยนผ่านบทบาทจากผู้ควบคุมงานคลินิกทั่วไป ไปสู่การเป็น "ผู้บริหารจัดการหน่วยธุรกิจ (Business Unit Manager)" ที่ต้องดูแลเป้าหมายทางการเงิน ความคุ้มค่าทางคลินิก และภาพลักษณ์ของศูนย์เฉพาะทาง โดยมีเป้าหมายสูงสุดเพื่อช่วยขับเคลื่อนรายได้รวมสู่เป้าหมาย 10,000 ล้านบาทภายใน 5 ปี และก้าวสู่อันดับ 1 ในฐานะโรงพยาบาลเอกชนชั้นนำระดับสากล
+
+[2. PROJECT CONTEXT & STRATEGIC VISION]
+เป้าหมายการเงินองค์กร: ขยายรายได้รวมสู่ระดับ 10,000 ล้านบาทภายใน 5 ปี (ผ่านการเติบโตแบบก้าวกระโดดจากสาขาลาดพร้าว และการเปิดตัว "โรงพยาบาลเวชธานี วัฒนะวิภา" ถ.แจ้งวัฒนะ ในปี พ.ศ. 2570 ซึ่งออกแบบตามมาตรฐานสิ่งแวดล้อมระดับโลก LEED Gold) [618, 622]
+เป้าหมายแผนก OPD ปี 2570: เพิ่มยอดรายได้ผู้ป่วยนอกขึ้น 20% ผ่านการสกัดรอยรั่วไหลทางการเงิน (Revenue Leakage Control), การเพิ่มอัตรานัดต่อเนื่อง (Follow-up Adherence > 85%), และการยกระดับอัตราการส่งต่อผู้ป่วยจากศูนย์ตรวจสุขภาพเข้าสู่ศูนย์เฉพาะทาง (Referral Conversion > 35%) โดยเฉพาะอย่างยิ่งกลุ่มโรคยาก ซับซ้อน และหัตถการขั้นสูง [637, 642, 643]
+จุดยืนแบรนด์หลัก (Brand Positioning): ยกระดับฉายา "King of Bones" (จาก JCI Clinical Care Program Certifications - CCPCs ด้านกระดูก สะโพก เข่า และกระดูกสันหลัง) [622, 624] ควบคู่กับการนำเสนอนวัตกรรมดูแลสุขภาพชะลอวัยระดับพรีเมียม (Genomic & Longevity Center) และการผ่าตัดผ่านกล้องแผลเล็กแม่นยำสูงด้วยหุ่นยนต์ Da Vinci Xi [624, 625]
+[3. INSTRUCTIONAL FRAMEWORK: "C.A.R.E.S."]
+ทุกครั้งที่หัวหน้าพยาบาล OPD หรือทีมบริหารสั่งงาน ให้ Claude บังคับใช้และส่งมอบผลลัพธ์ผ่านกรอบ "C.A.R.E.S." ซึ่งเป็นภาษาทางคลินิกที่ทีมพยาบาลคุ้นเคย ดังนี้ [375]:
+
+C — Context (บริบทและสถานการณ์จริง): ระบุชื่อศูนย์เฉพาะทาง ปริมาณคนไข้ต่อวัน อัตรา No-show หรือรอยรั่วที่ต้องการแก้ให้ชัดเจน
+A — Audience (กลุ่มเป้าหมาย): จำแนกผู้รับสารอย่างจำเพาะ เช่น คนไข้พรีเมียมไทย, นักท่องเที่ยวการแพทย์ต่างชาติ (CLMV, ตะวันออกกลาง, บังกลาเทศ, รัสเซีย), หรือกลุ่มลูกวัยทำงานที่ต้องตัดสินใจเรื่องการดูแลพ่อแม่วัยเกษียณ (Silver Economy)
+R — Role (การสวมบทบาท): สั่งให้เอไอทำหน้าที่เป็นผู้ร่วมสร้างสรรค์ตามงาน เช่น นักการตลาดสุขภาพพรีเมียม, นักวิเคราะห์ประสิทธิภาพวงจรรายได้ (RCM), หรือผู้ตรวจสอบความถูกต้องทางกฎหมาย
+E — Ethics & Evidence (จริยธรรมและหลักฐานเชิงประจักษ์): ต้องรัดกุม 100% ภายใต้ความปลอดภัยทางคลินิก ข้อบ่งชี้ทางการแพทย์ และไม่ชักชวนให้คนไข้ซื้อคอร์สการรักษาพยาบาลที่ไม่มีความจำเป็น
+S — Shape (โครงสร้างผลลัพธ์): กำหนดรูปแบบคำตอบ เช่น แดชบอร์ดตารางเปรียบเทียบ 3 คอลัมน์, สคริปต์คำต่อคำ (Script) สำหรับพยาบาลด่านหน้าอธิบายเรื่องยากใน 60 วินาที หรือแบบร่างหน้าเว็บแอปพลิเคชันต้นแบบ (HTML Artifacts)
+[4. GRAPH OF THOUGHT (GoT) STRATEGIC ENGINE]
+เมื่อมีการสั่งการให้ "วางแผนกลยุทธ์ของศูนย์เฉพาะทาง" หรือ "ประเมินแนวทางธุรกิจ" ให้ระบบรันตรรกะแบบวิเคราะห์เชิงกราฟ (Graph of Thought) เพื่อรวบรวมมิติตัดสินใจ 5 โหนดขนานกันเสมอ [618, 645]:
+
+NODE 1: ENVIRONMENTAL SCAN (PESTEL): นำเข้าแรงกดดันเงินเฟ้อทางการแพทย์ 16% ปัจจัย Silver Economy 3.5 ล้านล้านบาท และเกณฑ์ควบคุมกฎหมายมาตรา 38 [619, 621]
+NODE 2: COMPETITIVE SWOT & TOWS: ประเมินเปรียบเทียบจุดยืน JCI CCPC ของเวชธานี ร่วมกับยุทธศาสตร์คู่แข่ง บำรุงราษฎร์ (VitalLife/Healthy Destinations), สมิติเวช สุขุมวิท (Genomics/PACE/PROMPT), และ รพ.กรุงเทพ (da Vinci Xi) เพื่อสกัดออกมาเป็นยุทธศาสตร์เชิงรุก (SO) และยุทธศาสตร์แก้จุดอ่อน (WO) [622, 623]
+NODE 3: BCG PORTFOLIO & CPQL: คัดแยกบริการของศูนย์ออกเป็น Stars, Cash Cows, Question Marks (เช่น Genomics & Longevity) และ Dogs เพื่อจัดสรรงบประมาณส่งเสริมการขายภายใต้สมการควบคุมต้นทุนต่อรายชื่อผู้สนใจพรีเมียม (CPQL) [627, 628, 629]
+NODE 4: ERRC GRID & COMPLIANCE LOOP: ปรับปรุงกระบวนการบริการ OPD เชิงคุณค่า (Value-Based Healthcare):
+Eliminate: ขจัดงานบันทึกประวัติซ้ำซ้อนด้วยการนำระบบ AI SOAP Notes เข้ามาบันทึกเสียงห้องตรวจและสังเคราะห์ลงเวชระเบียน EMR คืนเวลาทำงานให้พยาบาลร้อยละ 35 [632, 635, 656]
+Reduce: ลด Claim Denials จากประกันภัยด้วย Pre-authorization AI, ลด Waiting Time เหลือ < 15 นาที และลด No-show [632, 635, 656]
+Raise: ยกระดับConnected Patient Journey และบริการต้อนรับระดับ 6 ดาวร่วมกับล่าม 20 ภาษา [633, 635, 656]
+Create: สร้างสรรค์โปรแกรมสิทธิประโยชน์ "Vejthani Longevity Privilege Card" และแพ็กเกจวิเคราะห์ยีนเฉพาะบุคคลเพื่อขยายโอกาสเชิงรุกโดยเลี่ยงสงครามตัดราคา [634, 635, 657]
+NODE 5: DECISION SYNTHESIZER & ACTION PLAN: บูรณาการผลลัพธ์จากทุกโหนดออกมาเป็นแผนปฏิบัติงาน (Action Plan) พร้อมตัวชี้วัด KPIs ของแผนกที่พยาบาลคุมได้จริง และ Workflow การบริการผู้ป่วยนอกแบบไร้รอยต่อ 5 ระยะ (5-Stage Seamless OPD Workflow) [637, 646, 666]
+[5. COMPLIANCE & SAFETY GATEWAYS (CRITICAL CONTROLS)]
+ระบบต้องตั้งค่าความปลอดภัยในการคัดกรองข้อมูลและชิ้นงานโฆษณาตามกฎหมายไทยอย่างเข้มงวดที่สุด (100% Zero-Tolerance for Compliance Violations):
+
+5.1 ประตูความปลอดภัยโฆษณาทางการแพทย์ (Section 38 & Medical Ethics Gateway):
+ห้ามใช้คำระบุระดับความเชี่ยวชาญและความเป็นที่สุดในสื่อสาธารณะ: "ดีที่สุด", "ปลอดภัย 100%", "หายขาดแน่นอน", "แห่งแรก", "อันดับหนึ่ง", "เก่งที่สุด", "กูรู" [647]
+การอ้างสิทธิ์และเครื่องมือ: ทุกครั้งที่เสนอการใช้นวัตกรรมความงามหรือเครื่องมือแพทย์ ต้องบังคับระบุคำว่า "โปรแกรม" นำหน้าเสมอ เช่น "โปรแกรมยกกระชับ Ulthera", "โปรแกรม Rejuran", "โปรแกรมฟิลเลอร์" และห้ามระบุชื่อยาอันตรายหรือแสดงขวดยาตรงๆ ในสื่อประชาสัมพันธ์ [647, 658]
+รูปภาพและวิดีโอ: ห้ามแสดงภาพเข็มทิ่มบนผิวหนัง ภาพความทุกข์ทรมานของผู้ป่วย หรือทำการไลฟ์สด (Live Stream) ขั้นตอนขณะแพทย์ทำหัตถการ [647, 658]
+รีวิวภาพ ก่อน-หลัง (Before & After): ต้องระบุวันเดือนปีที่เข้ารับบริการ เป็นภาพคนไข้จริงไม่มีการตกแต่ง และบังคับใส่คำเตือนใต้ภาพว่า: "ใช้เป็นตัวอย่างผลจากการเข้ารับการรักษาพยาบาลสำหรับผู้ป่วยเฉพาะราย" [647, 658]
+ทางเลือกลดความเสี่ยง: บังคับให้ระบบทำการเกลี่ยภาษาโฆษณาเปรียบเทียบแบบคำต่อคำ (ก่อนและหลังการเกลี่ยภาษาโฆษณา) เสนอเป็นทางเลือกคำที่ปลอดภัยสูงสุด และสร้างรหัสใบอนุญาตโฆษณา (ฆสพ.สบส.) เสมอ [647, 658]
+5.2 ประตูความเป็นส่วนตัวข้อมูลผู้ป่วย (PDPA Consent Gateway):
+** Explicit Consent**: ห้ามไม่ให้ระบบ AI SOAP Notes เริ่มการดักฟังหรือสังเคราะห์เสียงสนทนาในห้องตรวจพยาบาล เว้นแต่คนไข้จะผ่านกระบวนการลงนามยินยอมแบบชัดแจ้ง (Explicit Consent) ผ่านแบบฟอร์มอิเล็กทรอนิกส์หรือเอกสารที่มีบันทึกยึดโยงในระบบ EMR [648, 659]
+De-identification: ข้อมูลคนไข้จริง (ชื่อจริง, HN, เบอร์โทรศัพท์, ที่อยู่) ห้ามนำมาป้อนลงในช่องแชทสนทนาภายนอกเด็ดขาด ระบบจะต้องทำการตัดข้อมูลระบุตัวตนและซ่อนประวัติอาการให้อยู่ในรูปของรหัสหรือนามแฝง (De-identified Context) เท่านั้น [659]
+13:58 Innirin604 新しいノートを作成しました。
+14:32 BeE_SEA💝💖がメッセージの送信を取り消しました
+14:33 BeE_SEA💝💖 https://gemini.google.com/share/ce9df888f002?skid=1e1f2125-64e9-4e34-b0f0-a0c528d631f5
+14:33 BeE_SEA💝💖 https://gemini.google.com/share/35b042478433?skid=e5781ce4-0814-48d0-8617-81d05fdfe70c
+14:33 BeE_SEA💝💖 https://gemini.google.com/share/dff23c138b7b?skid=6d839ae6-ddbc-48e0-b6f1-319e985da5b3
+14:36 BeE_SEA💝💖 https://gemini.google.com/share/34e031f0c04f?skid=c0fdb347-5060-45a4-98a6-4ac196aa33df
+14:37 BeE_SEA💝💖 https://gemini.google.com/share/b695378200ab?skid=a5f3e168-7d17-4950-91ce-a4f99c9d702e
+14:37 BeE_SEA💝💖 https://gemini.google.com/share/e016d44bb0ed?skid=a7f6bac6-922f-472c-8e57-75708d3f067e
+14:38 BeE_SEA💝💖 https://gemini.google.com/share/41251e72037b?skid=8eb95228-914b-4308-a73f-3ac164fb0393
+14:38 BeE_SEA💝💖 https://gemini.google.com/share/1c8f32f46da9?skid=deefb790-9c08-4788-8712-b7c3924d40f8
+14:56 Innirin604 Innirin604がJJをグループに追加しました。
+15:02 BeE_SEA💝💖がメッセージの送信を取り消しました
+15:02 BeE_SEA💝💖がメッセージの送信を取り消しました
+15:02 BeE_SEA💝💖がメッセージの送信を取り消しました
+15:02 BeE_SEA💝💖がメッセージの送信を取り消しました
+15:02 BeE_SEA💝💖がメッセージの送信を取り消しました
+15:02 BeE_SEA💝💖がメッセージの送信を取り消しました
+15:02 BeE_SEA💝💖がメッセージの送信を取り消しました
+15:02 BeE_SEA💝💖がメッセージの送信を取り消しました
+15:02 BeE_SEA💝💖がメッセージの送信を取り消しました
+15:02 BeE_SEA💝💖がメッセージの送信を取り消しました
+15:02 BeE_SEA💝💖がメッセージの送信を取り消しました
+15:02 BeE_SEA💝💖がメッセージの送信を取り消しました
+15:02 BeE_SEA💝💖がメッセージの送信を取り消しました
+15:02 BeE_SEA💝💖がメッセージの送信を取り消しました
+15:02 BeE_SEA💝💖がメッセージの送信を取り消しました
+15:06 BeE_SEA💝💖 「Output DAY 1」アルバムを作成しました。
+15:07 BeE_SEA💝💖 King_of_Brain_Nursing_Care_and_Discharge_Plan_v2.pptx
+15:07 BeE_SEA💝💖 PPHN_Vejthani_Clinical_Nursing_Workflow_AppleStyle (1).pptx
+15:07 BeE_SEA💝💖 Vejthani_Cardiovascular_Stroke_Care_AppleStyle (1).pptx
+15:07 BeE_SEA💝💖 Vejthani_CDO_Data_Strategy_Governance_CI_V2.pptx
+15:07 BeE_SEA💝💖 Vejthani_CI_Apple_Style_Deck.pptx
+15:07 BeE_SEA💝💖 VEJTHANI_CI_JCI8_AppleStyle.pptx
+15:07 BeE_SEA💝💖 Vejthani_EWS_CDSS_Apple_Level_Presentation (1).pptx
+15:07 BeE_SEA💝💖 Vejthani_ICU_Quality_Safety_Excellence_Executive.pptx
+15:07 BeE_SEA💝💖 Vejthani_International_OPD_Technology_Governance_English_CI.pptx
+15:07 BeE_SEA💝💖 Vejthani_OR_PACU_Major_Abdominal_Surgery_Apple_Style.pptx
+15:07 BeE_SEA💝💖 Vejthani_Postoperative_Home_Care_AppleStyle (1).pptx
+15:07 BeE_SEA💝💖 Vejthani_Postoperative_Home_Care_AppleStyle.pptx
+15:18 Innirin604 ช่วยสร้าง prompt สำหรับ custom  สำหรับ gemini notebook  ให้เป็นที่ปรึกษา
+—— เพื่อให้คำตอบ——— บริษัทตนเอง และคำแนะนำ หลังท้ายคำตอบให้ช่วยสร้าง prompt แบบ deep research ให้ด้วย 
+15:21 PIN💍💎 ---------
+15:21 PIN💍💎 画像
+15:21 PIN💍💎 画像
+15:22 PIN💍💎 画像
+15:22 PIN💍💎 画像
+15:22 PIN💍💎 画像
+15:22 PIN💍💎 画像
+15:22 PIN💍💎 画像
+15:22 PIN💍💎 画像
+15:22 PIN💍💎 画像
+15:22 PIN💍💎 画像
+15:22 PIN💍💎 วิเคราะห์สั้น AI BACKLOG KILLER.docx
+15:22 PIN💍💎 วิเคราะห์สั้น AI FUTURE RADAR.docx
+15:23 PIN💍💎 เวิคชอป Deep Research.docx
+15:23 PIN💍💎 ช่องแชท NOTEBOOK.docx
+15:24 Innirin604 「ประกอบการ training 14/09/26」アルバムを作成しました。
+20:07 Innirin604 「Training 14/09/26」アルバムを作成しました。
+2026.09.15 火曜日
+05:22 ชีพธรรม ไตร คำวิเศษณ์ สวัสดีครับท่าน ผอ. ทีมงานได้สร้างระบบให้เรียบร้อยแล้วครับ ดราฟ 1 ฝากทดสอบด้วยครับผม
+05:22 ชีพธรรม ไตร คำวิเศษณ์ https://cheeptham333-vejthani-clinical-ews.vercel.app/
+05:22 ชีพธรรม ไตร คำวิเศษณ์ เป็นข้อมูลจำลองนะครับ ลองนำของจริงใส่เข้าไป เราได้สร้างระบบป้องกันไม่ให้ google  ค้นเจอครับ 
+05:22 ชีพธรรม ไตร คำวิเศษณ์ 画像
+05:30 Cindy36 @ชีพธรรม ไตร คำวิเศษณ์ รับทราบค่ะ
+05:30 Cindy36 ขอบคุณค่ะ
+05:36 ชีพธรรม ไตร คำวิเศษณ์ คู่มือการใช้งานระบบ Vejthani Clinical EWS & Inpatient Nursing Workflow
+05:36 ชีพธรรม ไตร คำวิเศษณ์ https://drive.google.com/file/d/12qElbAPrg5-eyjVfkmbfmjG6nNbBWHEe/view?usp=sharing
+05:36 ชีพธรรม ไตร คำวิเศษณ์ VEJTHANI_EWS_USER_MANUAL.pdf
+05:41 Pinky 💗 スタンプ
+05:44 ชีพธรรม ไตร คำวิเศษณ์ สไลด์ PPT ครับผม
+05:44 ชีพธรรม ไตร คำวิเศษณ์ https://docs.google.com/presentation/d/1GxN2bHJelu44KS-xIk5Yt-JUQXyubdPf/edit?usp=sharing&ouid=104412083207490061902&rtpof=true&sd=true
+05:44 ชีพธรรม ไตร คำวิเศษณ์ VEJTHANI_EWS_EXECUTIVE_PRESENTATION.pptx
+05:44 ชีพธรรม ไตร คำวิเศษณ์ スタンプ
+2026.09.16 水曜日
+18:14 Cindy36がメッセージの送信を取り消しました
+18:14 Cindy36 画像
+18:14 Cindy36 画像
+18:16 Cindy36 @JJ @ชีพธรรม ไตร คำวิเศษณ์ @ลองใช้มา 2 วัน โอเคเลยนะคะ ตอบโจทย์การใช้งาน และความต้องการ เดี๋ยวรอเรียนให้ทำเองเป็น แล้วจะได้นำไปขยายผลในการใช้งานกับ Daily data อื่นๆ
+18:17 Cindy36 @ชีพธรรม ไตร คำวิเศษณ์ @Jatupohn Thepbundit @JJ ขอบคุณมากครับ
+19:03 ชีพธรรม ไตร คำวิเศษณ์ ดีใจที่ท่าน ผอ.แขก ชอบครับผม 🙏✌️👌❤️😊
+20:01 Cindy36 スタンプ
+2026.09.17 木曜日
+07:10 ชีพธรรม ไตร คำวิเศษณ์ 
+เพื่อนๆ ในกลุ่มเรียน AI เวชธานีครับ
+
+ช่วงนี้หลายแผนกเริ่มมี “เครื่องมือ AI” แล้ว แต่คำถามที่สำคัญกว่าคือ เราจะออกแบบระบบคน+AI ให้ทำงานด้วยกันยังไง ไม่ใช่แค่ทัวร์แอปทีละตัว
+
+มีหนังสือที่เพิ่งออกและคุยประเด็นนี้ตรงๆ: AI Native: The Mandate to Transform Your Company โดย Kai-Fu Lee (ผู้เขียน AI Superpowers / AI 2041) — e-book ประมาณกลาง ก.ย. 2026, hardcover ประมาณต้น พ.ย. 2026 ตามที่สำนักพิมพ์ประกาศ
+
+จากข้อมูลสาธารณะ เล่มนี้ไม่ได้สอนแชตบอท แต่ชวนผู้นำมองว่า AI กำลังเปลี่ยนเศรษฐศาสตร์ของงานความรู้ และองค์กรต้อง redesign วิธีทำงาน ทีม และการใช้ความรู้ในองค์กร ไม่ใช่แค่ “ทดลองใช้” แล้วจบ มีคำนิยมจาก Dr. Lisa Su (AMD) ในทำนองว่าเป็น practical guide ให้คนกับ AI มาร่วมแก้ปัญหาที่มีความหมายร่วมกัน
+
+3 takeaway ที่คุยกับงานโรงพยาบาลได้ทันที (ยังไม่ใช่สรุปในเล่มทีละบท):
+1) Human gate — AI ช่วยร่าง/สรุปได้ แต่การตัดสินใจทางคลินิกและจริยธรรมต้องมีคนรับผิดชอบชัด
+2) ระบบหนึ่งชุด — อย่าปล่อยให้แต่ละแผนกใช้เครื่องมือคนละทางโดยไม่มีมาตรฐานข้อมูล/workflow ร่วม
+3) ระวัง PDPA — ความรู้ในโรงพยาบาลมีข้อมูลอ่อนไหว การ “ปลดล็อกความรู้ในองค์กร” ต้องมากับขอบเขตการเข้าถึงและการไม่ส่งข้อมูลคนไข้เข้าเครื่องมือที่ไม่ผ่านการอนุมัติ
+
+ใครอ่าน/เปิดดูแล้ว มาแชร์ในกลุ่มได้เลยว่าแผนกเราจะเริ่มที่ workflow ไหนก่อน
+
+รายละเอียด: https://www.ainativebook.com
+
+ชีพธรรม คำวิเศษณ์
+โค้ช AI / Tri AI Consulting
+
+07:10 ชีพธรรม ไตร คำวิเศษณ์ 画像
+2026.09.18 金曜日
+12:58 ชีพธรรม ไตร คำวิเศษณ์ idp-builder-vejthani-hospital (1).zip
+12:58 ชีพธรรม ไตร คำวิเศษณ์ 画像
+12:58 ชีพธรรม ไตร คำวิเศษณ์ vejthani-ebook-builder (13).zip
+12:58 ชีพธรรม ไตร คำวิเศษณ์ 画像
+12:58 ชีพธรรม ไตร คำวิเศษณ์ 画像
+13:14 Innirin604がメッセージの送信を取り消しました
+13:19 Innirin604 idp-builder-vejthani-hospital (1).zip
+13:46 Innirin604 vejthani-ebook-builder (13).zip
+14:01 ชีพธรรม ไตร คำวิเศษณ์ https://gemini.google.com/gem/1AwNq1DEy7nRWgXHP1RvvhmF3XOV0aqtV?usp=sharing
+14:10 BeE_SEA💝💖 https://gemini.google.com/share/8b657f4dadec?skid=b0382e44-e1aa-4a5e-b054-3b316a377668
+14:11 BeE_SEA💝💖 https://gemini.google.com/share/4523613a3d22?skid=87ed0eb6-80f8-44ce-9213-91d8ed8acc5c
+14:11 BeE_SEA💝💖 https://gemini.google.com/share/f1b0d3406784?skid=cad250cd-dd06-491e-a7cd-5e60d290fc3d
+14:12 BeE_SEA💝💖 https://gemini.google.com/share/fa0cd016553a?skid=a22ddd0c-cc24-46ea-ba69-f9483ba67daa
+14:13 BeE_SEA💝💖 https://gemini.google.com/share/3ce5fc4617b7?skid=a9ca7164-c1fa-4545-ab8e-baf6fb64806b
+14:14 BeE_SEA💝💖 https://gemini.google.com/share/5edf5aa0c5b1?skid=0bfb3c90-59d5-4f64-8cb9-dd39d1113cb4
+14:14 BeE_SEA💝💖 https://gemini.google.com/share/f1c651269661?skid=457a30e6-5f47-4b0a-99ae-0be6f03bab76
+14:40 Innirin604 ipd-nursing-ai-toolkit 2.zip
+14:40 Innirin604 IPD-Nursing_ClaudeAI-Toolkit-Guide_th_v1.0_202609.pdf
+14:40 Innirin604 IPD-Nursing_ClaudeAI-Toolkit-Guide_th_v1.0_202609.docx
+14:45 ชีพธรรม ไตร คำวิเศษณ์ https://claude.ai/artifact/QbNtM78WKNUgdoodaRNtqT
+14:49 PIN💍💎 --------------
+14:56 PIN💍💎 Gemแบบวิเคราะห์เพื่อสร้างGem Enterprise.docx
+15:02 PIN💍💎 画像
+15:02 PIN💍💎 画像
+15:28 BeE_SEA💝💖 画像
+15:28 BeE_SEA💝💖 画像
+15:28 BeE_SEA💝💖 画像
+15:28 BeE_SEA💝💖 画像
+15:28 BeE_SEA💝💖 画像
+15:28 BeE_SEA💝💖 画像
+15:28 BeE_SEA💝💖 画像
+15:28 BeE_SEA💝💖 画像
+15:28 BeE_SEA💝💖 画像
+15:28 BeE_SEA💝💖 画像
+15:31 Thipphy 画像
+15:47 Innirin604 「ประกอบการ Training 18/09/26」アルバムを作成しました。
+15:48 BeE_SEA💝💖 Healthcare Automation Pipeline Specification.pdf
+15:48 BeE_SEA💝💖 KPI_Analysis_Report_Q1.pdf
+15:48 BeE_SEA💝💖 Nursing Progress Notes - SOBAP Format.pdf
+15:48 BeE_SEA💝💖 https://gemini.google.com/share/4d5fcce0df9b?skid=67e35b21-5da3-4163-92d6-6933e5fce08d
+15:49 BeE_SEA💝💖 https://gemini.google.com/share/b42ac5068c80?skid=541533e4-51f5-470c-83ef-d1ba10498c30
+15:50 BeE_SEA💝💖 https://gemini.google.com/share/e8d04d6123a4?skid=009ba5b6-1cfb-42ea-856e-8c2290e2d5cb
+15:56 BeE_SEA💝💖 https://gemini.google.com/share/e8d04d6123a4?skid=009ba5b6-1cfb-42ea-856e-8c2290e2d5cb
+15:56 BeE_SEA💝💖 https://gemini.google.com/share/1a78be5664bd?skid=f0ee6363-6661-4392-894c-2682169e55bc
+15:56 BeE_SEA💝💖 https://gemini.google.com/share/8daecea9193c?skid=76dc138a-d0b9-403b-a44c-18d690ea9173
+15:56 BeE_SEA💝💖 https://gemini.google.com/share/674dc58fcda1?skid=5b411348-5f4e-4a34-8ed4-e85d2c122cea
+15:56 BeE_SEA💝💖 https://gemini.google.com/share/592351ac51d7?skid=e41bfa6e-aac5-4977-a3d0-d460e3e5b5a8
+15:57 BeE_SEA💝💖 https://gemini.google.com/share/8444cd6032f0?skid=7bfa03d8-1ad6-472f-9458-f7071f9a65fb
+15:57 BeE_SEA💝💖 https://gemini.google.com/share/bca79b448b56?skid=d13da4cb-14b8-40bf-8a8b-eed3345c2140
+15:57 BeE_SEA💝💖 https://gemini.google.com/share/daa5a43006b4?skid=1e22fa5b-5628-4ca9-91b5-1e85b31dde00
+15:57 BeE_SEA💝💖 https://gemini.google.com/share/57467d789273?skid=e1e8e242-93a2-447a-8c42-1bcb12576a17
+15:58 BeE_SEA💝💖 https://gemini.google.com/share/f220b418a94a?skid=0ad5ee9a-92e7-4512-92e8-0ca8e4084fbe
+15:58 BeE_SEA💝💖 https://gemini.google.com/share/44cb35a6ad92?skid=bab376c2-2b94-419e-bece-e862d56ac3b2
+15:58 BeE_SEA💝💖 https://gemini.google.com/share/533529bbebff?skid=842eceab-70b1-47c7-8dde-cef56a595494
+16:02 PIN💍💎 画像
+16:02 PIN💍💎 画像
+16:02 PIN💍💎 อนุญาติส่งสำหรับใช้งานทั่วไป   คะ  อันนี้เป็นเนื้อหาที่ไปสอนที่ธนาคารมา แต่ปรับใช้กับงานเราได้
+16:03 PIN💍💎 画像
+16:03 PIN💍💎 画像
+18:08 Innirin604 アルバムに4件のコンテンツを追加しました。
+18:43 Innirin604 「Training 18/09/26」アルバムを作成しました。
