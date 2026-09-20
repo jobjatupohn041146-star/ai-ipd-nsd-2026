@@ -34,13 +34,13 @@ export default function PeopleShowcase({ participants }) {
             </div>
             
             <h2 className="text-xl sm:text-2xl font-black text-slate-900 tracking-tight flex items-center gap-2">
-              <span>ทำเนียบผู้นำฝ่ายการพยาบาล คณะทำงาน และทีมที่ปรึกษา AI</span>
+              <span>ทำเนียบผู้ผ่านการอบรม พยาบาลวิชาชีพแกนนำ และคณะทำงาน</span>
               <span className="text-xs px-2.5 py-0.5 rounded-full bg-blue-100 text-blue-800 font-mono font-bold border border-blue-200">
                 {participants.length} ท่าน
               </span>
             </h2>
             <p className="text-xs sm:text-sm text-slate-600 mt-1 max-w-3xl leading-relaxed">
-              บุคลากรแกนนำพยาบาลวิชาชีพทั้ง 13 แผนกจากฐานข้อมูลทางการ พร้อมผู้บริหารและที่ปรึกษายุทธศาสตร์ AI IPD / NSD 2026 โรงพยาบาลเวชธานี
+              รายชื่อบุคลากรผู้ผ่านการอบรม พยาบาลวิชาชีพแกนนำทั้ง 13 แผนก และคณะทำงานฝ่ายพัฒนาทรัพยากรบุคคล (NSD/IPD) โรงพยาบาลเวชธานี
             </p>
           </div>
 

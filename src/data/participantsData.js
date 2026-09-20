@@ -1,41 +1,5 @@
 export const participantsData = [
   {
-    "empId": "EX-001",
-    "name": "อ.ชีพธรรม ไตร คำวิเศษณ์",
-    "nickname": "อ.ชีพธรรม",
-    "role": "หัวหน้าทีมที่ปรึกษา AI ยุทธศาสตร์และการแพทย์ (Head AI Coach)",
-    "department": "Tri AI Consulting / ที่ปรึกษาโครงการ",
-    "initials": "CT",
-    "badge": "Chief AI Advisor",
-    "responsibilities": "วางกรอบแนวคิด C.A.R.E.S. และ Graph of Thought พัฒนาระบบ AI Workflow ทางการพยาบาล และโค้ชชิ่งผู้บริหารพยาบาล",
-    "aiExperience": "ผู้เชี่ยวชาญการประยุกต์ใช้ AI ในธุรกิจสุขภาพและโรงพยาบาลระดับสากล, Prompt Engineering ขั้นสูง",
-    "aiGoal": "ถ่ายทอดโมเดล AI-Native Inpatient Nursing Workflow ให้กับโรงพยาบาลเวชธานี เพื่อยกระดับสู่มาตรฐานการดูแลผู้ป่วยระดับสากล",
-    "aiTools": [
-      "C.A.R.E.S. Engine",
-      "Graph of Thought",
-      "Clinical AI Architecture",
-      "Claude Plugin Suite"
-    ]
-  },
-  {
-    "empId": "EX-002",
-    "name": "จตุพร เทพบัณฑิต (Jatupohn Thepbundit)",
-    "nickname": "Job (จ็อบ)",
-    "role": "สถาปนิกวิศวกรรมระบบและที่ปรึกษา UX ผู้บริหาร (Senior Full-Stack Architect)",
-    "department": "Digital Health & AI Architecture",
-    "initials": "JT",
-    "badge": "Lead Architect",
-    "responsibilities": "ออกแบบและพัฒนา Executive AI Strategy & Evidence Portal, Data Manifest Architecture และระบบ Zero-Bug Deployment",
-    "aiExperience": "Full-Stack Web Architect, Enterprise AI Systems, GitHub Pages Cloud CI/CD",
-    "aiGoal": "สร้างแพลตฟอร์มศูนย์รวมหลักฐานและยุทธศาสตร์ดิจิทัลที่เสถียร สวยงาม และเปิดใช้งานได้ทุกที่ 100%",
-    "aiTools": [
-      "Executive Portal",
-      "Zero-Bug Pipeline",
-      "GitHub Pages Infrastructure",
-      "Vision OCR"
-    ]
-  },
-  {
     "empId": "EX-003",
     "name": "คุณอินทิรา บุญชู (น้องอินทร์)",
     "nickname": "น้องอินทร์",
