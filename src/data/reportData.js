@@ -419,4 +419,4 @@ export const reportPages = [
   }
 ];
 
-export default report_pages;
+export default reportPages;
