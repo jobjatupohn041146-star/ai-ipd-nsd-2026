@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import Header from './components/Header';
 import OverviewView from './components/OverviewView';
 import EvidenceGallery from './components/EvidenceGallery';
@@ -13,7 +13,34 @@ import participantsData from './data/participantsData';
 import reportPages from './data/reportData';
 
 export default function App() {
-  const [currentTab, setCurrentTab] = useState('overview');
+  const [currentTab, setCurrentTabState] = useState(() => {
+    if (typeof window !== 'undefined') {
+      const hash = window.location.hash.replace('#', '');
+      if (['overview', 'portfolio', 'atmosphere', 'artifacts', 'people', 'documents', 'report'].includes(hash)) {
+        return hash;
+      }
+    }
+    return 'overview';
+  });
+
+  const setCurrentTab = (tab) => {
+    setCurrentTabState(tab);
+    if (typeof window !== 'undefined') {
+      window.location.hash = tab;
+    }
+  };
+
+  useEffect(() => {
+    const handleHashChange = () => {
+      const hash = window.location.hash.replace('#', '');
+      if (['overview', 'portfolio', 'atmosphere', 'artifacts', 'people', 'documents', 'report'].includes(hash)) {
+        setCurrentTabState(hash);
+      }
+    };
+    window.addEventListener('hashchange', handleHashChange);
+    return () => window.removeEventListener('hashchange', handleHashChange);
+  }, []);
+
   const [selectedMedia, setSelectedMedia] = useState(null);
 
   // Helper for Lightbox navigation
@@ -32,7 +59,7 @@ export default function App() {
   };
 
   return (
-    <div className="min-h-screen bg-[#070f1b] text-slate-100 flex flex-col justify-between selection:bg-sky-500 selection:text-white">
+    <div className="min-h-screen bg-gradient-to-b from-[#f8fafc] via-[#f0f6ff] to-[#f8fafc] text-slate-800 flex flex-col justify-between selection:bg-blue-600 selection:text-white">
       {/* Executive Header */}
       <Header 
         currentTab={currentTab} 
@@ -50,10 +77,35 @@ export default function App() {
           />
         )}
 
+        {currentTab === 'portfolio' && (
+          <EvidenceGallery 
+            manifest={sourceManifest} 
+            onSelectMedia={(item) => setSelectedMedia(item)} 
+            initialCategory="portfolio"
+          />
+        )}
+
+        {currentTab === 'atmosphere' && (
+          <EvidenceGallery 
+            manifest={sourceManifest} 
+            onSelectMedia={(item) => setSelectedMedia(item)} 
+            initialCategory="atmosphere"
+          />
+        )}
+
+        {currentTab === 'documents' && (
+          <EvidenceGallery 
+            manifest={sourceManifest} 
+            onSelectMedia={(item) => setSelectedMedia(item)} 
+            initialCategory="documents"
+          />
+        )}
+
         {currentTab === 'evidence' && (
           <EvidenceGallery 
             manifest={sourceManifest} 
             onSelectMedia={(item) => setSelectedMedia(item)} 
+            initialCategory="all"
           />
         )}
 
@@ -87,14 +139,16 @@ export default function App() {
       )}
 
       {/* Executive Footer (Hidden during print) */}
-      <footer className="bg-[#050c16] border-t border-slate-800/80 py-8 px-4 sm:px-6 text-xs text-slate-500 no-print">
-        <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-4">
-          <div className="flex items-center gap-3">
-            <div className="w-8 h-8 rounded-lg bg-sky-600/30 text-sky-400 font-bold flex items-center justify-center border border-sky-500/30">
-              V
-            </div>
-            <div>
-              <div className="font-bold text-slate-300">
+      <footer className="bg-white/90 backdrop-blur-md border-t border-blue-100 py-8 px-4 sm:px-6 text-xs text-slate-500 no-print mt-12 shadow-inner">
+        <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-5">
+          <div className="flex items-center gap-3.5">
+            <img 
+              src="./assets/vejthani-logo.png" 
+              alt="Vejthani Hospital" 
+              className="h-9 object-contain"
+            />
+            <div className="border-l border-blue-100 pl-3.5">
+              <div className="font-bold text-slate-900 text-xs">
                 โรงพยาบาลเวชธานี · Vejthani International Hospital
               </div>
               <div className="text-[11px] text-slate-500">
@@ -103,14 +157,20 @@ export default function App() {
             </div>
           </div>
 
-          <div className="flex flex-wrap items-center gap-4 text-[11px] text-slate-400">
-            <span>🛡️ PDPA Zero-Leakage Protocol</span>
+          <div className="flex flex-wrap items-center gap-3 text-[11px] text-slate-600 font-medium">
+            <span className="flex items-center gap-1 text-blue-800 font-bold bg-blue-50 px-2 py-0.5 rounded-full border border-blue-200">
+              🛡️ PDPA Zero-Leakage
+            </span>
             <span>•</span>
-            <span>🏥 JCI Edition 8 Standardized</span>
+            <span className="flex items-center gap-1 text-slate-700 font-bold bg-slate-100 px-2 py-0.5 rounded-full border border-slate-200">
+              🏥 JCI Edition 8 Standard
+            </span>
             <span>•</span>
-            <span>⚡ 1-Click ISBAR Handover</span>
+            <span className="flex items-center gap-1 text-amber-800 font-bold bg-amber-50 px-2 py-0.5 rounded-full border border-amber-200">
+              ⚡ 1-Click ISBAR Handover
+            </span>
             <span>•</span>
-            <span className="text-sky-400 font-mono">Build Status: 100% Production Ready</span>
+            <span className="text-blue-700 font-mono font-bold">Build: 100% Production Ready</span>
           </div>
         </div>
       </footer>

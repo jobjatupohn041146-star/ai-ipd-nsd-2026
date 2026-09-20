@@ -2,57 +2,79 @@
 
 @layer base {
   :root {
-    --navy-950: #060e1a;
-    --navy-900: #0b192c;
-    --navy-850: #10233d;
-    --navy-800: #1e3a5f;
-    --medical-blue: #0284c7;
-    --medical-teal: #0d9488;
-    --gold-accent: #d97706;
+    --primary-blue: #1e40af;
+    --medical-cyan: #0284c7;
+    --accent-orange: #f97316;
+    --porcelain-bg: #f8fafc;
+    --text-slate: #0f172a;
   }
 
   body {
     font-family: 'Noto Sans Thai', 'DM Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-    background-color: #0b192c;
-    color: #f1f5f9;
+    background: linear-gradient(180deg, #f0f7ff 0%, #f8fafc 40%, #ffffff 100%);
+    color: #0f172a;
     margin: 0;
     padding: 0;
+    min-height: 100vh;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
   }
 }
 
-/* Custom Executive Scrollbar */
+/* Custom Sleek Scrollbar */
 ::-webkit-scrollbar {
   width: 8px;
   height: 8px;
 }
 ::-webkit-scrollbar-track {
-  background: #0b192c;
+  background: #f1f5f9;
 }
 ::-webkit-scrollbar-thumb {
-  background: #1e3a5f;
+  background: #cbd5e1;
   border-radius: 4px;
 }
 ::-webkit-scrollbar-thumb:hover {
   background: #0284c7;
 }
 
-/* Glassmorphic card styling */
-.executive-card {
-  background: rgba(16, 35, 61, 0.75);
-  backdrop-filter: blur(12px);
-  border: 1px solid rgba(255, 255, 255, 0.08);
-  box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.5);
+/* Super Elegant Glassmorphic White & Blue Cards */
+.executive-card-white {
+  background: rgba(255, 255, 255, 0.92);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(226, 232, 240, 0.95);
+  box-shadow: 0 10px 30px -10px rgba(30, 64, 175, 0.08), 0 2px 6px -1px rgba(0, 0, 0, 0.04);
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
 }
 
-.executive-card-hover {
-  transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
-}
 .executive-card-hover:hover {
-  transform: translateY(-2px);
-  border-color: rgba(2, 132, 199, 0.4);
-  box-shadow: 0 16px 36px -12px rgba(2, 132, 199, 0.2);
+  transform: translateY(-4px) scale(1.008);
+  border-color: rgba(2, 132, 199, 0.45);
+  box-shadow: 0 20px 45px -12px rgba(2, 132, 199, 0.22), 0 0 25px rgba(14, 165, 233, 0.15);
+}
+
+/* Shimmering Border Animation */
+@keyframes shimmerBorder {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+.shimmer-glow {
+  background: linear-gradient(90deg, #1e40af, #0284c7, #f97316, #0284c7, #1e40af);
+  background-size: 300% 300%;
+  animation: shimmerBorder 6s ease infinite;
+}
+
+/* Aura Glow Pulse */
+.aura-pulse {
+  box-shadow: 0 0 25px rgba(2, 132, 199, 0.35);
+  animation: auraGlow 3s ease-in-out infinite alternate;
+}
+
+@keyframes auraGlow {
+  0% { box-shadow: 0 0 15px rgba(2, 132, 199, 0.2); }
+  100% { box-shadow: 0 0 32px rgba(2, 132, 199, 0.45); }
 }
 
 /* High-Quality A4 Print Simulation & Paper Styles */
@@ -63,7 +85,7 @@
   margin: 0 auto 30px auto;
   background: #ffffff;
   color: #0f172a;
-  box-shadow: 0 12px 35px rgba(0, 0, 0, 0.35);
+  box-shadow: 0 12px 35px rgba(30, 64, 175, 0.12), 0 2px 8px rgba(0, 0, 0, 0.05);
   position: relative;
   box-sizing: border-box;
   page-break-after: always;

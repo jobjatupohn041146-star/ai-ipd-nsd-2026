@@ -1,159 +1,269 @@
 export const participantsData = [
   {
-    "name": "ท่าน ผอ. Cindy (ผอ.แขก)",
-    "role": "ผู้อำนวยการฝ่ายการพยาบาล (Director of Nursing)",
-    "department": "Executive Nursing Administration",
-    "initials": "CD",
-    "badge": "Executive Sponsor",
-    "aiTools": [
-      "Executive Summary Gem",
-      "EWS CDSS Dashboard",
-      "90-Day KPI Tracker"
-    ],
-    "bio": "ผู้นำยุทธศาสตร์การเปลี่ยนผ่านองค์กรการพยาบาลโรงพยาบาลเวชธานีสู่ยุค AI-Native Hospital และการเตรียมความพร้อมโรงพยาบาลเวชธานี วัฒนะวิภา"
-  },
-  {
+    "empId": "EX-001",
     "name": "อ.ชีพธรรม ไตร คำวิเศษณ์",
-    "role": "ที่ปรึกษา AI ยุทธศาสตร์และการแพทย์ (Head AI Coach)",
+    "nickname": "อ.ชีพธรรม",
+    "role": "หัวหน้าทีมที่ปรึกษา AI ยุทธศาสตร์และการแพทย์ (Head AI Coach)",
     "department": "Tri AI Consulting / ที่ปรึกษาโครงการ",
     "initials": "CT",
-    "badge": "Chief Advisor",
+    "badge": "Chief AI Advisor",
+    "responsibilities": "วางกรอบแนวคิด C.A.R.E.S. และ Graph of Thought พัฒนาระบบต้นแบบ Vejthani Clinical EWS & Inpatient Workflow และโค้ชชิ่งผู้บริหารพยาบาล",
+    "aiExperience": "ผู้เชี่ยวชาญการประยุกต์ใช้ AI ในธุรกิจสุขภาพและโรงพยาบาลระดับสากล, Prompt Engineering ขั้นสูง",
+    "aiGoal": "ถ่ายทอดโมเดล AI Native Hospital ให้กับโรงพยาบาลเวชธานี เพื่อก้าวสู่เป้าหมาย 10,000 ล้านบาทอย่างมั่นคง",
     "aiTools": [
-      "Graph of Thought Engine",
-      "C.A.R.E.S. Framework",
-      "Claude AI Plugin Suite"
-    ],
-    "bio": "โค้ช AI ประจำโครงการ ผู้ถ่ายทอดและวางกรอบ C.A.R.E.S., Graph of Thought และร่วมพัฒนาระบบ Vejthani Clinical EWS & Inpatient Nursing Workflow"
+      "C.A.R.E.S. Engine",
+      "Graph of Thought",
+      "Clinical EWS Architecture",
+      "Claude Plugin Suite"
+    ]
   },
   {
+    "empId": "EX-002",
     "name": "จตุพร เทพบัณฑิต (Jatupohn Thepbundit)",
-    "role": "สถาปนิกวิศวกรรมระบบและที่ปรึกษา UX ผู้บริหาร",
+    "nickname": "Job (จ็อบ)",
+    "role": "สถาปนิกวิศวกรรมระบบและที่ปรึกษา UX ผู้บริหาร (Senior Full-Stack Architect)",
     "department": "Digital Health & AI Architecture",
     "initials": "JT",
     "badge": "Lead Architect",
+    "responsibilities": "ออกแบบและพัฒนา Executive AI Strategy & Evidence Portal, Data Manifest Architecture และระบบ Zero-Bug Deployment",
+    "aiExperience": "Full-Stack Web Architect, Enterprise AI Systems, GitHub Pages Cloud CI/CD",
+    "aiGoal": "สร้างแพลตฟอร์มศูนย์รวมหลักฐานและยุทธศาสตร์ดิจิทัลที่เสถียร สวยงาม และเปิดใช้งานได้ทุกที่ 100%",
     "aiTools": [
       "Executive Portal",
       "Zero-Bug Pipeline",
-      "GitHub Pages Infrastructure"
-    ],
-    "bio": "ผู้ออกแบบและพัฒนาระบบ Executive AI Strategy & Evidence Portal สถาปัตยกรรมข้อมูล และระบบนำเสนอระดับ C-Level"
+      "GitHub Pages Infrastructure",
+      "Vision OCR"
+    ]
   },
   {
-    "name": "In प्रयोगशाला / คุณอินทิรา (น้องอินทร์)",
-    "role": "ผู้ประสานงานหลัก & ผู้จัดการฝ่ายพัฒนาทรัพยากรบุคคล",
+    "empId": "EX-003",
+    "name": "คุณอินทิรา บุญชู (น้องอินทร์)",
+    "nickname": "น้องอินทร์",
+    "role": "ผู้จัดการฝ่ายพัฒนาทรัพยากรบุคคล & แกนนำโครงการ (Project Operations Lead)",
     "department": "HR & Nursing Competency Development",
     "initials": "IR",
     "badge": "Project Lead",
+    "responsibilities": "ริเริ่มและขับเคลื่อนสถาปัตยกรรม IDP Builder และ E-Book Builder ร่วมกับทีมพยาบาล ประสานงานจัดอบรมเชิงปฏิบัติการ",
+    "aiExperience": "idp-builder-vejthani-hospital, vejthani-ebook-builder, Prompt Architecture",
+    "aiGoal": "ยกระดับสมรรถนะบุคลากรการพยาบาลรายบุคคล (IDP) ให้พร้อมรองรับโรงพยาบาลเวชธานี วัฒนะวิภา",
     "aiTools": [
       "idp-builder-vejthani-hospital",
-      "Vejthani E-Book Builder",
-      "Training Operations"
-    ],
-    "bio": "ผู้ริเริ่มและขับเคลื่อนสถาปัตยกรรม IDP Builder และ E-Book Builder ในการยกระดับสมรรถนะบุคลากรการพยาบาลอย่างเป็นรูปธรรม"
+      "vejthani-ebook-builder",
+      "Skill Package Manager"
+    ]
   },
   {
-    "name": "คุณบี (BeE_SEA)",
-    "role": "หัวหน้างานการพยาบาลผู้ป่วยใน & AI Artifacts Lead",
-    "department": "Inpatient Department (IPD-NSD)",
-    "initials": "BS",
-    "badge": "Top Innovator",
+    "empId": "9008212",
+    "name": "ประนอม ติเยา  (พี่แขก)",
+    "nickname": "พี่แขก",
+    "role": "Inpatient Nursing Director",
+    "department": "Inpatient Nursing",
+    "initials": "ป",
+    "badge": "Executive Sponsor",
+    "responsibilities": "ดูแลคุณภาพและมาตรฐานการให้บริการทางการพยาบาล",
+    "aiExperience": "Gemini, Notebook LM ,gamma",
+    "aiGoal": "การวิเคราะห์ข้อมูลและการนำเสนอ",
     "aiTools": [
-      "NICU KPI Synthesizer",
-      "Healthcare Automation Pipeline",
-      "Ward 6A Dashboard"
-    ],
-    "bio": "ผู้สร้างสรรค์ตลับ Gem และ Presentation ต้นแบบกว่า 15 รายการ ครอบคลุมทั้ง NICU, ICU, RCM, EWS และไปป์ไลน์ระบบอัตโนมัติ"
+      "Gemini",
+      "Notebook LM",
+      "gamma"
+    ]
   },
   {
-    "name": "คุณพิน (PIN💍💎)",
-    "role": "ผู้เชี่ยวชาญการวิเคราะห์คำสั่ง AI & Enterprise Research",
-    "department": "Nursing Strategy & Enterprise Solutions",
-    "initials": "PN",
-    "badge": "Research Lead",
+    "empId": "9005694",
+    "name": "อัญชลิฎา ผ่องแผ้ว  (พี่ชมพู)",
+    "nickname": "พี่ชมพู",
+    "role": "Assistant Inpatient Nursing Director",
+    "department": "Inpatient Nursing",
+    "initials": "อ",
+    "badge": "Executive Lead",
+    "responsibilities": "งานบริหาร บริหารเตียง ที่ต้องใช้รับผู้ป่วยประจำ  ที่ต้องใช้รับผู้ป่วยประจำวัน อัตรากำลังเจ้าหน้าที่ ผู้ป่วยในทั้งหมด  , อุปกรณ์เครื่องมือแพทย์ต้องคอยตรวจสอบ , \n งานบริการ : ควบคุมมาตรฐานการบริการในผู้ป่วยใน ให้เป็นไปตามรูปแบบที่วางแผนไว้ \n,ด้านclinical  open chart review เพื่อค้นหาความเสี่ยง ทำ Risk mitigation และสื่อสารไปยังทีม \nงานวิชาการ : พัฒนาบุคลากรให้เป็นพยาบาลเฉพาะทาง และส่วนงานประจำวันติดตามติดตามโรคยากซับซ้อน ที่พยาบาลอาจจะยังไม่ทราบ ต้องทำต้องทำแผนการการดูแล ให้พยาบาล และให้ความรู้ในเรื่องโรคนั้นนั้น โดยใช้AI ช่วย , \nสรุปงานประจำเดือน และรายวันจากExcel \nเป็นต้น",
+    "aiExperience": "Image to VDO จากapp ต่างๆ \nText to VDO \nทำ slide \nตัดต่อclip \nที่ใช้เป็นอยู่แล้ว\n1. Chatgpt\n2. Gemini\n3. Copilot\n4. Google AI\n5. Gamma AI\n6. Kling AI\n7. Hailao \n8.Dreamface \n9.Tensor Art \n10.VeO3\n11.Note book LM \n12.Grok",
+    "aiGoal": "อยากได้แบบเลขาส่วนตัว อยากได้การวิเคราะห์จากไฟล์ Excel ให้แม่นยำ",
     "aiTools": [
-      "Gemแบบวิเคราะห์Enterprise",
-      "AI Backlog Killer",
-      "Deep Research Framework"
-    ],
-    "bio": "ผู้นำด้านการวิเคราะห์คำสั่งสำหรับงานองค์กรขนาดใหญ่ และการถ่ายทอดโมเดล Deep Research สำหรับงานเวชปฏิบัติ"
+      "Text to VDO",
+      "ทำ slide",
+      "ตัดต่อclip",
+      "ที่ใช้เป็นอยู่แล้ว",
+      "Chatgpt"
+    ]
   },
   {
-    "name": "คุณสุจิตรา (Sujitra NICU)",
-    "role": "หัวหน้าหอผู้ป่วยวิกฤตทารกแรกเกิด (NICU Head Nurse)",
-    "department": "NICU / Pediatric Critical Care",
-    "initials": "SJ",
-    "badge": "Clinical Champion",
+    "empId": "9003719",
+    "name": "ดารณี อุปถัมภ์  (พี่ปุ้ย)",
+    "nickname": "พี่ปุ้ย",
+    "role": "Nurse Manager Special Care",
+    "department": "Operating and Recovery Section",
+    "initials": "ด",
+    "badge": "Nurse Manager",
+    "responsibilities": "แผนกผ่าตัดและพักฟื้น ให้การบริการด้านการผ่าตัดทุกระบบ รวมถึงการดูแลคนไข้หลังผ่าตัดและการระงับความรู้สึก",
+    "aiExperience": "น้อย",
+    "aiGoal": "การนำข้อมูลต่างๆ มา analysis",
     "aiTools": [
-      "PPHN & Severe MAS Care Gem",
-      "NICU Vital Analytics",
-      "Shift Handover Prompts"
-    ],
-    "bio": "ผู้นำการประยุกต์ใช้ AI ในการสังเคราะห์แนวทางการดูแลทารกแรกเกิดภาวะวิกฤตและการสื่อสารข้อมูลระหว่างทีมสหวิชาชีพ"
+      "น้อย"
+    ]
   },
   {
-    "name": "คุณดารณี (Daranee_Pui)",
-    "role": "ผู้ตรวจการพยาบาลผู้ป่วยใน (Inpatient Nursing Supervisor)",
-    "department": "Inpatient Department (IPD)",
-    "initials": "DP",
-    "badge": "Supervisor",
+    "empId": "9009013",
+    "name": "ทิพวรรณ พันธ์สุวรรณ  (พี่ทิพย์)",
+    "nickname": "พี่ทิพย์",
+    "role": "Nurse Manager Critical short-term care",
+    "department": "Hemodialysis Center",
+    "initials": "ท",
+    "badge": "Nurse Manager",
+    "responsibilities": "ทำ KPT การสอนบทเรียน  การเสนอนำเสนอผลงาน",
+    "aiExperience": "การทำสไลด์",
+    "aiGoal": "การทำ คลิปสอน",
     "aiTools": [
-      "Bed Capacity Optimizer",
-      "SOBAP Notes Synthesizer",
-      "Daily Census Bot"
-    ],
-    "bio": "ผู้กำกับดูแลคุณภาพการบริการพยาบาลผู้ป่วยในและการจัดสรรทรัพยากรเตียงให้เกิดความคุ้มค่าสูงสุด"
+      "การทำสไลด์"
+    ]
   },
   {
-    "name": "คุณพิงค์กี้ (Pinky 💗)",
-    "role": "หัวหน้าฝ่ายพัฒนาคุณภาพการพยาบาล",
-    "department": "Nursing Quality & Patient Safety (QPS)",
-    "initials": "PK",
-    "badge": "Quality Lead",
+    "empId": "9008422",
+    "name": "จิรประภา ดีศรี  (อาย)",
+    "nickname": "อาย",
+    "role": "Nurse Manager IPD",
+    "department": "Inpatient 8AB Ward \nIntensive Care Unit Section",
+    "initials": "จ",
+    "badge": "Nurse Manager",
+    "responsibilities": "ติดตามอาการผู้ป่วย ตรวจสอบแผนการดูแล วางแผนการพยาบาล ตรวจสอบเวชระเบียน เก็บข้อมูล ตรวจสอบการทำงาน ตรวจสอบการทำงานของพนักงาน",
+    "aiExperience": "หาความรู้จาก AI เกี่ยวกับผู้ป่วย โรค การรักษา การวางแผนทางการพยาบาล  ทำสื่อการสอน",
+    "aiGoal": "ทำสื่อการสอน การพัฒนาการทำงานให้ มีประสิทธิภาพและประสิทธิผล",
     "aiTools": [
-      "JCI Edition 8 Standard Checker",
-      "Incident Root Cause Analyzer",
-      "IPSG Audits"
-    ],
-    "bio": "ผู้กำกับดูแลการนำ AI มาใช้ตรวจสอบมาตรฐานความปลอดภัยของผู้ป่วยตามเกณฑ์สากล JCI อย่างต่อเนื่อง"
+      "Gemini",
+      "Claude AI",
+      "Prompt Engineering"
+    ]
   },
   {
-    "name": "คุณพิมพ์ดาว (PIMDAW🌷SOM)",
-    "role": "หัวหน้าหอผู้ป่วยพิเศษพรีเมียม (Premium Ward Head Nurse)",
-    "department": "VIP / Premium Inpatient Care",
-    "initials": "PS",
-    "badge": "Service Excellence",
+    "empId": "9008427",
+    "name": "เรณู ภูผา  (เรย์)",
+    "nickname": "เรย์",
+    "role": "Nurse Manager IPD",
+    "department": "Inpatient 9AB Ward \nInpatient 10AB Ward",
+    "initials": "เ",
+    "badge": "Nurse Manager",
+    "responsibilities": "ทำข้อสอบ ทำสื่อการสอน  เก็บข้อมูลคุณภาพ ตรวจเวชระเบียน",
+    "aiExperience": "ทำสื่อการสอน ในรูปแบบการ์ตูน AI",
+    "aiGoal": "AI ช่วยเก็บข้อมูล  และวิเคราะห์ ข้อมูล",
     "aiTools": [
-      "6-Star Hospitality Assistant",
-      "Personalized Care Planner",
-      "Patient Experience"
-    ],
-    "bio": "ผู้ออกแบบประสบการณ์การบริการพยาบาลระดับ 6 ดาว เพื่อสนับสนุนวิสัยทัศน์โรงพยาบาลพรีเมียมระดับนานาชาติ"
+      "Gemini",
+      "Claude AI",
+      "Prompt Engineering"
+    ]
   },
   {
-    "name": "คุณทิพวรรณ (Thipphy)",
-    "role": "หัวหน้างานวิเคราะห์ข้อมูลและตัวชี้วัดคลินิก",
-    "department": "Clinical Informatics & Analytics",
-    "initials": "TP",
-    "badge": "Analytics Lead",
+    "empId": "9011219",
+    "name": "สุจิตรา สุเพ็งคำ  (ขนมปัง)",
+    "nickname": "ขนมปัง",
+    "role": "Acting Nurse Manager Critical long-term care",
+    "department": "Neonatal & Neonatal Intensive Care Section\nLabour & Delivery Section",
+    "initials": "ส",
+    "badge": "Nurse Manager",
+    "responsibilities": "บริหารจัดการบุคลากรและสิ่งของ อุปกรณ์การแพทย์ภายในหอผู้ป่วย แก้ไขปัญหาร่วมกับทีม ตรวจสอบความเรียบร้อยและความเป็นระเบียบภายในหอผู้ป่วย ร่วมกำหนดแนวทางในการดูแลผู้ป่วย conference ให้ความรู้แก่ทีมและพนักงานใหม่ เป็นต้น",
+    "aiExperience": "ใช้ Ai เช่น Gemini, chat GPT ในการทำ One page ต่างๆ ใช้ถามคำถามต่างๆ",
+    "aiGoal": "วิธีการใช้ Ai เช่น การทำงานนำเสนอ ทำ VDO",
     "aiTools": [
-      "Hospital Data Catalog Gem",
-      "Dialysis KPI Analyzer",
-      "Clinical Dashboard"
-    ],
-    "bio": "ผู้ดูแลความถูกต้องของตัวชี้วัดและมาตรฐานชุดข้อมูลสุขภาพ เชื่อมโยงผลลัพธ์ทางคลินิกสู่การตัดสินใจเชิงบริหาร"
+      "ใช้ Ai เช่น Gemini"
+    ]
   },
   {
-    "name": "คุณเจเจ (JJ)",
-    "role": "ผู้จัดการฝ่ายปฏิบัติการพยาบาลและเทคโนโลยี",
-    "department": "Nursing Operations & Tech Strategy",
-    "initials": "JJ",
-    "badge": "Operations Lead",
+    "empId": "9006820",
+    "name": "ยุพาภรณ์ เขียวปาน  (พี่ยุ)",
+    "nickname": "พี่ยุ",
+    "role": "Head Ward Secretary (Central)",
+    "department": "Ward Secretary Unit",
+    "initials": "ย",
+    "badge": "Core Secretary",
+    "responsibilities": "บันทึกรายงานจำนวนคนไข้ Download app ประจำวัน",
+    "aiExperience": "ทำกราฟสรุปจำนวนคนไข้ Admit ประจำเดือน",
+    "aiGoal": "การเอา ai มาช่วยทำเว็บ",
     "aiTools": [
-      "Clinical EWS Pilot Tester",
-      "1-Click ISBAR Implementation",
-      "Cross-Ward Bridge"
-    ],
-    "bio": "ผู้ร่วมผลักดันการทดลองใช้ระบบ Clinical EWS ในหอผู้ป่วยจริง และประเมินความพึงพอใจของทีมพยาบาลด่านหน้า"
+      "Gemini",
+      "Claude AI",
+      "Prompt Engineering"
+    ]
+  },
+  {
+    "empId": "9009160",
+    "name": "สุพรรษา ใจติ๊บ  (ดาว)",
+    "nickname": "ดาว",
+    "role": "Nurse Manager IPD",
+    "department": "Intermediate Care Unit",
+    "initials": "ส",
+    "badge": "Nurse Manager",
+    "responsibilities": "Unit manager",
+    "aiExperience": "ทำคลิปวิดีโอสื่อการสอนสำหรับพยาบาล",
+    "aiGoal": "ประยุกต์กับงานพยาบาล, สื่อการสอนเข้าใจง่าย",
+    "aiTools": [
+      "Gemini",
+      "Claude AI",
+      "Prompt Engineering"
+    ]
+  },
+  {
+    "empId": "9008102",
+    "name": "พิมดาว เหิงขุนทด  (ส้ม)",
+    "nickname": "ส้ม",
+    "role": "Department  Secretary",
+    "department": "Inpatient Nursing",
+    "initials": "พ",
+    "badge": "Core Secretary",
+    "responsibilities": "เอกสารที่ส่งมาให้ผอ.เซ็น\nสรุปยอดผู้ป่วยรายเดือน\nสรุป IV Team รายเดือน\nสมัครอบรมภายนอกให้กับพยาบาล\nทำ one page ตามเนื้อหาที่รับมอบหมาย",
+    "aiExperience": "การทำ one page, นำข้อมูลจากไฟล์หนึ่งมาสรุปลงอีกไฟล์หนึ่ง,",
+    "aiGoal": "เพิ่มเติมเทคนิค ความรู้จากเดิม",
+    "aiTools": [
+      "การทำ one page"
+    ]
+  },
+  {
+    "empId": "9011220",
+    "name": "นภัสวรรณ ศรีพรม  (มาสด้า)",
+    "nickname": "มาสด้า",
+    "role": "Registered Nurse 2 Critical long-term care",
+    "department": "Intensive Care Unit Section",
+    "initials": "น",
+    "badge": "Clinical Specialist",
+    "responsibilities": "ตอนนี้กำลังเป็นtrainee การเป็นunit manager ในการดูแลward 5A 6A เรื่องของmanagement leadership",
+    "aiExperience": "การสือบหาข้อมูลnursing care plan",
+    "aiGoal": "การนำเสนอข้อมูลในสลได์ของscope IPD",
+    "aiTools": [
+      "Gemini",
+      "Claude AI",
+      "Prompt Engineering"
+    ]
+  },
+  {
+    "empId": "9011085",
+    "name": "สิทธิกร รุจิสิน  (ฟินดี้)",
+    "nickname": "ฟินดี้",
+    "role": "Data Scientist",
+    "department": "Data Driven Department",
+    "initials": "ส",
+    "badge": "Tech Champion",
+    "responsibilities": "Web app สำหรับช่วยงานในหน่วยงาน\n1.chatbot\n2.วิเคราะห์ความผิดสำหรับการออกใบเตือน\n3.สร้างใบเสนอราคา",
+    "aiExperience": "ถามคำถาม Code คิดแผนงาน",
+    "aiGoal": "อยากรู้ use case อื่นๆ การใช้ประโยชน์จากเอไออย่างเต็มที่ ครบกระบวนการจนสามารถใช้งานในงานได้จริง",
+    "aiTools": [
+      "ถามคำถาม Code คิดแผนงาน"
+    ]
+  },
+  {
+    "empId": "9011165",
+    "name": "นฤเศรษฐ์ กระทอง (แม็ค)",
+    "nickname": "แม็ค",
+    "role": "Data Engineer",
+    "department": "Data Governance & Business Insights (CDP / BI)",
+    "initials": "น",
+    "badge": "Tech Champion",
+    "responsibilities": "Web app, Data quality, BI developer",
+    "aiExperience": "สร้าง Agentic AI แล้วแบ่ง role ให้ทำตามงานต่างๆ",
+    "aiGoal": "หาสิ่งที่ประหยัด token นอกจากการใช้ caveman",
+    "aiTools": [
+      "Gemini",
+      "Claude AI",
+      "Prompt Engineering"
+    ]
   }
 ];
 
