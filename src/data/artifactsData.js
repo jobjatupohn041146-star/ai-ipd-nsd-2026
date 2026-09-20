@@ -1,23 +1,5 @@
 export const artifactsData = [
   {
-    "id": "art-gem-ews-app",
-    "title": "ระบบต้นแบบ Vejthani Clinical EWS & Inpatient Workflow",
-    "category": "app",
-    "department": "Inpatient Department (IPD-NSD)",
-    "author": "ชีพธรรม ไตร คำวิเศษณ์ & ทีมพัฒนา",
-    "date": "2026-09-15",
-    "businessValue": "ระบบสนับสนุนการทำงานและการเฝ้าระวังวิกฤตล่วงหน้า 1-Click ISBAR ลดเวลาส่งเวรเหลือ 2 วินาที JCI IPSG.2 ตอบสนอง <=3 นาที ลด Alarm Fatigue 40%-60% พร้อม PDPA Zero-Leakage Local-First",
-    "url": "https://cheeptham333-vejthani-clinical-ews.vercel.app/",
-    "badge": "Live Web App",
-    "icon": "Activity",
-    "tags": [
-      "Clinical EWS",
-      "ISBAR",
-      "Patient Safety",
-      "Vercel"
-    ]
-  },
-  {
     "id": "art-claude-artifact",
     "title": "Claude AI Interactive Artifact: IPD Workflow Dashboard",
     "category": "claude",

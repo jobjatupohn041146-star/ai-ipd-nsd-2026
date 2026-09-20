@@ -7,13 +7,13 @@ export const participantsData = [
     "department": "Tri AI Consulting / ที่ปรึกษาโครงการ",
     "initials": "CT",
     "badge": "Chief AI Advisor",
-    "responsibilities": "วางกรอบแนวคิด C.A.R.E.S. และ Graph of Thought พัฒนาระบบต้นแบบ Vejthani Clinical EWS & Inpatient Workflow และโค้ชชิ่งผู้บริหารพยาบาล",
+    "responsibilities": "วางกรอบแนวคิด C.A.R.E.S. และ Graph of Thought พัฒนาระบบ AI Workflow ทางการพยาบาล และโค้ชชิ่งผู้บริหารพยาบาล",
     "aiExperience": "ผู้เชี่ยวชาญการประยุกต์ใช้ AI ในธุรกิจสุขภาพและโรงพยาบาลระดับสากล, Prompt Engineering ขั้นสูง",
     "aiGoal": "ถ่ายทอดโมเดล AI-Native Inpatient Nursing Workflow ให้กับโรงพยาบาลเวชธานี เพื่อยกระดับสู่มาตรฐานการดูแลผู้ป่วยระดับสากล",
     "aiTools": [
       "C.A.R.E.S. Engine",
       "Graph of Thought",
-      "Clinical EWS Architecture",
+      "Clinical AI Architecture",
       "Claude Plugin Suite"
     ]
   },

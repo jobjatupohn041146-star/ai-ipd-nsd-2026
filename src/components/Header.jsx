@@ -27,10 +27,10 @@ export default function Header({
     { id: 'dashboard', label: 'Dashboard ผลการอบรม', sub: 'Analytics & KPIs', icon: LayoutGrid, highlightColor: 'from-blue-600 to-indigo-600' },
     { id: 'portfolio', label: 'ภาพผลงาน & ยุทธศาสตร์', sub: 'Architecture & CI', icon: Sparkles, badge: portfolioCount, highlightColor: 'from-blue-600 to-sky-600' },
     { id: 'atmosphere', label: 'ภาพบรรยากาศการอบรมจริง', sub: 'Day 1 & Day 2', icon: Camera, badge: atmosphereCount, highlightColor: 'from-emerald-600 to-teal-600' },
-    { id: 'artifacts', label: 'คลังคำสั่ง AI & Gems', sub: '23 AI Repos', icon: Flame, badge: artifactsCount, highlightColor: 'from-purple-600 to-indigo-600' },
+    { id: 'artifacts', label: 'คลังคำสั่ง AI & Gems', sub: '22 AI Repos', icon: Flame, badge: artifactsCount, highlightColor: 'from-purple-600 to-indigo-600' },
     { id: 'people', label: 'ทำเนียบผู้นำ & พยาบาล', sub: '16 Champions', icon: Users, badge: peopleCount },
     { id: 'documents', label: 'เอกสาร & สไลด์', sub: 'PDF, PPTX, ZIP', icon: Layers, badge: docsCount },
-    { id: 'report', label: 'รายงาน A4 ผลการอบรม', sub: '10-Page Report', icon: FileText, special: true },
+    { id: 'report', label: 'รายงาน A4 ผลการอบรม', sub: '9-Page Report', icon: FileText, special: true },
   ];
 
   return (

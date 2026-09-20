@@ -20,7 +20,7 @@ import {
 export default function OverviewView({ setCurrentTab, onOpenEvidence }) {
   const kpis = [
     { label: 'อัตราสำเร็จการอบรม', value: '100%', change: '13 แผนกพยาบาลแกนนำผ่านครบ', icon: Award, color: 'text-blue-600', badgeBg: 'bg-blue-50 text-blue-700 border-blue-200', gradient: 'from-blue-50/60 to-white' },
-    { label: 'นวัตกรรม AI ที่สร้างได้', value: '23 ระบบ', change: '18 Gems · 3 Skills · 2 Apps', icon: Sparkles, color: 'text-purple-600', badgeBg: 'bg-purple-50 text-purple-700 border-purple-200', gradient: 'from-purple-50/60 to-white' },
+    { label: 'นวัตกรรม AI ที่สร้างได้', value: '22 ระบบ', change: '18 Gems · 3 Skills · 1 App', icon: Sparkles, color: 'text-purple-600', badgeBg: 'bg-purple-50 text-purple-700 border-purple-200', gradient: 'from-purple-50/60 to-white' },
     { label: 'Follow-up Adherence', value: '85%', change: 'นัดหมายต่อเนื่องกลุ่มซับซ้อน', icon: HeartHandshake, color: 'text-emerald-600', badgeBg: 'bg-emerald-50 text-emerald-700 border-emerald-200', gradient: 'from-emerald-50/60 to-white' },
     { label: 'ความพึงพอใจการอบรม', value: '98.5%', change: 'ผลประเมินระดับดีเยี่ยม', icon: TrendingUp, color: 'text-amber-600', badgeBg: 'bg-amber-50 text-amber-700 border-amber-200', gradient: 'from-amber-50/60 to-white' },
     { label: '1-Click ISBAR Handover', value: '2 วินาที', change: 'ลดเวลาสรุปส่งเวรทันใจ', icon: Clock, color: 'text-sky-600', badgeBg: 'bg-sky-50 text-sky-700 border-sky-200', gradient: 'from-sky-50/60 to-white' },
@@ -32,10 +32,10 @@ export default function OverviewView({ setCurrentTab, onOpenEvidence }) {
   const pillars = [
     {
       num: '01',
-      title: 'Clinical EWS & ISBAR Handover',
+      title: 'Clinical AI & ISBAR Handover',
       subtitle: 'นวัตกรรมเฝ้าระวังวิกฤตและส่งเวรไร้รอยต่อ',
       desc: 'ระบบช่วยประเมินคะแนนวิกฤตล่วงหน้า แจ้งเตือนทีมแพทย์และพยาบาลภายใน 3 นาที พร้อมการส่งเวรด้วยโครงสร้าง 1-Click ISBAR ใน 2 วินาที',
-      tools: ['Clinical EWS Prototype', '1-Click ISBAR', 'Alarm Filter'],
+      tools: ['Clinical Early Warning Assistant', '1-Click ISBAR', 'Alarm Filter'],
       accentColor: 'border-blue-200 bg-gradient-to-br from-blue-50/70 via-white to-white'
     },
     {
@@ -50,7 +50,7 @@ export default function OverviewView({ setCurrentTab, onOpenEvidence }) {
       num: '03',
       title: 'Tacit Knowledge to Digital Assets',
       subtitle: 'เปลี่ยนความรู้เฉพาะตัวเป็นสินทรัพย์ดิจิทัลองค์กร',
-      desc: 'สร้างสรรค์ 23 ชิ้นงาน AI ประกอบด้วย 18 Gemini Gems และ Claude Plugins เช่น IDP Builder พัฒนาบุคคล และ Vejthani E-Book Builder',
+      desc: 'สร้างสรรค์ 22 ชิ้นงาน AI ประกอบด้วย 18 Gemini Gems และ Claude Plugins เช่น IDP Builder พัฒนาบุคคล และ Vejthani E-Book Builder',
       tools: ['ipd-nursing-ai-toolkit', 'idp-builder', 'vejthani-ebook-builder'],
       accentColor: 'border-purple-200 bg-gradient-to-br from-purple-50/70 via-white to-white'
     },
@@ -84,7 +84,7 @@ export default function OverviewView({ setCurrentTab, onOpenEvidence }) {
           <p className="text-sm sm:text-base text-slate-600 leading-relaxed font-normal">
             หลักสูตรเชิงปฏิบัติการระดับผู้บริหารและพยาบาลวิชาชีพแกนนำ โรงพยาบาลเวชธานี (AI IPD / NSD 2026) 
             ที่เปลี่ยนการทำงานประจำวันสู่ระบบอัตโนมัติ <strong>ยกระดับความเป็นเลิศทางคลินิก (Clinical Excellence)</strong> 
-            สร้างสรรค์นวัตกรรม AI Gems และปัญญาประดิษฐ์ทางการพยาบาลพร้อมใช้งานจริง 23 ระบบ
+            สร้างสรรค์นวัตกรรม AI Gems และปัญญาประดิษฐ์ทางการพยาบาลพร้อมใช้งานจริง 22 ระบบ
           </p>
 
           <div className="pt-3 flex flex-wrap gap-3">
@@ -121,7 +121,7 @@ export default function OverviewView({ setCurrentTab, onOpenEvidence }) {
               className="px-4 py-2.5 rounded-xl bg-white hover:bg-slate-50 text-purple-900 border border-purple-200 font-bold text-xs sm:text-sm flex items-center gap-2 transition-all cursor-pointer shadow-xs transform hover:-translate-y-0.5"
             >
               <Flame className="w-4 h-4 text-purple-600" />
-              <span>คลังคำสั่ง AI &amp; Gems (23 รายการ)</span>
+              <span>คลังคำสั่ง AI &amp; Gems (22 รายการ)</span>
             </button>
           </div>
         </div>
@@ -205,34 +205,6 @@ export default function OverviewView({ setCurrentTab, onOpenEvidence }) {
               </div>
             </div>
           ))}
-        </div>
-      </div>
-
-      {/* Live System Highlight: Clinical EWS Vercel App */}
-      <div className="rounded-2xl border border-blue-200 bg-gradient-to-r from-blue-50 via-sky-50 to-white p-6 sm:p-8 shadow-md flex flex-col sm:flex-row items-center justify-between gap-6 relative overflow-hidden">
-        <div className="absolute right-0 top-0 w-64 h-64 bg-blue-400/10 rounded-full blur-2xl pointer-events-none"></div>
-        <div className="space-y-2 text-center sm:text-left relative z-10">
-          <div className="inline-flex items-center gap-1.5 px-3 py-0.5 rounded-full text-xs font-extrabold bg-emerald-100 text-emerald-800 border border-emerald-300">
-            <span className="w-2 h-2 rounded-full bg-emerald-500 animate-ping"></span>
-            LIVE PRODUCTION PROTOTYPE
-          </div>
-          <h4 className="text-lg sm:text-xl font-extrabold text-slate-900">
-            Vejthani Clinical EWS &amp; Inpatient Nursing Workflow
-          </h4>
-          <p className="text-xs text-slate-600 max-w-2xl leading-relaxed">
-            ระบบสนับสนุนการทำงานและการเฝ้าระวังวิกฤตล่วงหน้า ออกแบบเฉพาะสำหรับ 6 ศูนย์ความเป็นเลิศทางการแพทย์โรงพยาบาลเวชธานี
-          </p>
-        </div>
-        <div className="flex items-center gap-3 shrink-0 relative z-10">
-          <a
-            href="https://cheeptham333-vejthani-clinical-ews.vercel.app/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="px-5 py-2.5 rounded-xl bg-gradient-to-r from-blue-600 to-sky-600 hover:from-blue-700 hover:to-sky-700 text-white font-extrabold text-xs sm:text-sm flex items-center gap-2 shadow-md shadow-blue-500/25 transition-all cursor-pointer transform hover:-translate-y-0.5"
-          >
-            <span>เปิดแอปพลิเคชันจริง (Vercel)</span>
-            <ArrowRight className="w-4 h-4" />
-          </a>
         </div>
       </div>
     </div>

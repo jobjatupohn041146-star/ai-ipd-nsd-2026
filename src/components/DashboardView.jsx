@@ -118,9 +118,9 @@ export default function DashboardView({ setCurrentTab, onOpenEvidence }) {
             </div>
           </div>
           <div>
-            <div className="text-2xl sm:text-3xl font-black text-slate-900">23 ระบบ</div>
+            <div className="text-2xl sm:text-3xl font-black text-slate-900">22 ระบบ</div>
             <div className="text-[11px] text-purple-700 font-bold mt-0.5">
-              18 Gems · 3 Skills · 2 Apps
+              18 Gems · 3 Skills · 1 App
             </div>
           </div>
         </div>
@@ -389,7 +389,7 @@ export default function DashboardView({ setCurrentTab, onOpenEvidence }) {
               onClick={() => setCurrentTab("artifacts")}
               className="font-bold text-blue-700 hover:text-blue-900 flex items-center gap-1 cursor-pointer"
             >
-              <span>ดูคลังนวัตกรรม 23 ชิ้นงาน</span>
+              <span>ดูคลังนวัตกรรม 22 ชิ้นงาน</span>
               <ArrowUpRight className="w-3.5 h-3.5" />
             </button>
           </div>

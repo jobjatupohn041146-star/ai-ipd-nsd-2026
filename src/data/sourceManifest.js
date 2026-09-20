@@ -906,7 +906,7 @@ export const sourceManifest = [
   {
     "id": "doc-ews-pptx-6",
     "fileName": "VEJTHANI_EWS_EXECUTIVE_PRESENTATION.pptx",
-    "title": "สไลด์นำเสนอผู้บริหาร: Vejthani Clinical EWS & Inpatient Nursing Workflow",
+    "title": "สไลด์นำเสนอผู้บริหาร: AI Strategy & Inpatient Nursing Workflow",
     "category": "documents",
     "phase": "Day 2",
     "date": "2026-09-18",
@@ -915,7 +915,7 @@ export const sourceManifest = [
     "description": "ชุดสไลด์ Apple-Style สรุประบบเฝ้าระวังวิกฤตล่วงหน้า 1-Click ISBAR ตอบสนอง <=3 นาที ลด Alarm Fatigue",
     "tags": [
       "Executive Deck",
-      "Clinical EWS",
+      "Inpatient Workflow",
       "Apple Style",
       "PPTX"
     ]
