@@ -100,7 +100,7 @@ export default function OverviewView({ setCurrentTab, onOpenEvidence }) {
               className="px-4 py-2.5 rounded-xl bg-white hover:bg-slate-50 text-blue-900 border border-blue-200 font-bold text-xs sm:text-sm flex items-center gap-2 transition-all cursor-pointer shadow-xs transform hover:-translate-y-0.5"
             >
               <FileText className="w-4 h-4 text-blue-600" />
-              <span>อ่านรายงาน A4 ผลการอบรม (10 หน้า)</span>
+              <span>อ่านรายงาน A4 ผลการอบรม (9 หน้า)</span>
             </button>
             <button
               onClick={() => setCurrentTab('portfolio')}

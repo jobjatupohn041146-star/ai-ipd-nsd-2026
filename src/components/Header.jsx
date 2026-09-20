@@ -91,7 +91,7 @@ export default function Header({
               setTimeout(() => window.print(), 350);
             }}
             className="flex items-center gap-2 px-4 py-2 rounded-xl bg-gradient-to-r from-orange-500 via-amber-500 to-orange-600 hover:from-orange-600 hover:to-orange-700 text-white text-xs font-bold shadow-md shadow-orange-500/25 border border-orange-400/40 transition-all cursor-pointer transform hover:-translate-y-0.5"
-            title="พิมพ์หรือบันทึกรายงานผู้บริหาร 10 หน้าเป็น PDF"
+            title="พิมพ์หรือบันทึกรายงานผู้บริหาร 9 หน้าเป็น PDF"
           >
             <Printer className="w-4 h-4" />
             <span>พิมพ์รายงาน A4 ฉบับทางการ (PDF)</span>

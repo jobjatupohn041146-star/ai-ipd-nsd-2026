@@ -25,11 +25,11 @@ export default function FormalReportView({ pages }) {
               Official Executive A4 Standard
             </span>
             <span className="text-xs font-semibold text-slate-500">
-              10-Page Formal Report View (@media print Ready)
+              {pages.length}-Page Formal Report View (@media print Ready)
             </span>
           </div>
           <h2 className="text-xl sm:text-2xl font-black text-slate-900 tracking-tight">
-            รายงานผู้บริหาร A4 ฉบับทางการ (10 หน้าเต็ม พร้อมส่วนลงนาม)
+            รายงานผู้บริหาร A4 ฉบับทางการ ({pages.length} หน้าเต็ม)
           </h2>
           <p className="text-xs text-slate-600 mt-1">
             สามารถกดปุ่ม "พิมพ์ / บันทึกเป็น PDF" เพื่อดาวน์โหลดเอกสารรูปเล่มทางการแบบไร้ขอบเมนูส่วนเกินสำหรับเสนอต่อกรรมการบริหาร
@@ -42,12 +42,12 @@ export default function FormalReportView({ pages }) {
             className="px-5 py-2.5 rounded-xl bg-gradient-to-r from-blue-700 to-indigo-800 hover:from-blue-600 hover:to-indigo-700 text-white font-bold text-xs sm:text-sm shadow-md shadow-blue-500/20 flex items-center gap-2 transition-all cursor-pointer"
           >
             <Printer className="w-4 h-4" />
-            <span>พิมพ์ / บันทึก PDF (10 หน้า)</span>
+            <span>พิมพ์ / บันทึก PDF ({pages.length} หน้า)</span>
           </button>
         </div>
       </div>
 
-      {/* Render 10 Pages */}
+      {/* Render Pages */}
       <div className="flex flex-col items-center">
         {pages.map((page) => {
           if (page.pageType === 'cover') {
@@ -58,113 +58,47 @@ export default function FormalReportView({ pages }) {
                   <div className="flex items-center gap-3">
                     <img 
                       src="./assets/vejthani-logo.png" 
-                      alt="Vejthani Hospital Logo" 
+                      alt="Vejthani Hospital" 
                       className="h-10 object-contain"
                     />
                     <div className="border-l border-slate-300 pl-3">
-                      <div className="text-xs font-extrabold tracking-widest text-slate-900">
-                        VEJTHANI HOSPITAL
-                      </div>
-                      <div className="text-[10px] text-slate-600 tracking-wider">
-                        INTERNATIONAL JCI ACCREDITED
-                      </div>
+                      <div className="text-xs font-black tracking-wider text-slate-900 uppercase">VEJTHANI HOSPITAL</div>
+                      <div className="text-[10px] text-slate-500 font-medium">INTERNATIONAL JCI ACCREDITED</div>
                     </div>
                   </div>
                   <div className="text-right">
-                    <div className="text-[10px] font-mono font-bold text-slate-700">
-                      {page.documentCode}
-                    </div>
-                    <div className="text-[9px] text-emerald-700 font-bold uppercase tracking-wider">
-                      CONFIDENTIAL &amp; STRATEGIC
-                    </div>
+                    <div className="font-mono text-xs font-bold text-slate-900">{page.documentCode}</div>
+                    <div className="text-[9px] font-bold text-emerald-800 uppercase tracking-widest">CONFIDENTIAL &amp; STRATEGIC</div>
                   </div>
                 </div>
 
-                {/* Middle Content */}
-                <div className="my-auto space-y-6 text-center py-12">
-                  <div className="inline-block px-4 py-1.5 rounded-full bg-slate-100 text-slate-800 border border-slate-300 text-xs font-bold tracking-wider">
+                {/* Cover Content */}
+                <div className="my-auto text-center space-y-7 py-8">
+                  <div className="inline-block px-4 py-1.5 rounded-full bg-slate-100 border border-slate-300 text-slate-700 text-xs font-bold tracking-wide">
                     {page.project}
                   </div>
 
-                  <h1 className="text-2xl sm:text-3xl font-extrabold text-slate-900 leading-snug whitespace-pre-line">
+                  <h1 className="text-3xl sm:text-4xl font-black text-slate-900 tracking-tight leading-tight whitespace-pre-line max-w-2xl mx-auto">
                     {page.title}
                   </h1>
 
-                  <div className="text-xs font-mono font-bold text-sky-800 tracking-widest">
+                  <div className="font-mono text-xs text-sky-900 font-bold tracking-wider uppercase">
                     {page.subTitle}
                   </div>
 
-                  <div className="w-24 h-1 bg-amber-600 mx-auto my-6"></div>
+                  <div className="w-24 h-1 bg-gradient-to-r from-blue-700 to-amber-500 mx-auto rounded-full"></div>
 
-                  <div className="space-y-1 text-xs text-slate-700">
-                    <p className="font-bold text-sm text-slate-900">{page.organization}</p>
-                    <p className="text-amber-800 font-semibold">{page.targetRevenue}</p>
-                    <p className="font-mono text-slate-600 pt-2">{page.dateThai}</p>
+                  <div className="space-y-1.5 text-sm font-semibold text-slate-700 pt-2">
+                    <div className="text-base font-bold text-slate-900">{page.organization}</div>
+                    <div className="text-xs text-amber-800 font-bold">{page.targetRevenue}</div>
+                    <div className="text-xs text-slate-500">{page.dateThai}</div>
                   </div>
                 </div>
 
                 {/* Footer */}
                 <div className="border-t border-slate-300 pt-4 flex items-center justify-between text-[10px] text-slate-500">
                   <span>{page.signOffNote}</span>
-                  <span className="font-mono font-bold text-slate-700">หน้า 1 / 10</span>
-                </div>
-              </div>
-            );
-          }
-
-          if (page.pageType === 'signoff') {
-            return (
-              <div key={page.pageNumber} className="a4-page flex flex-col justify-between border border-slate-200">
-                {/* Header */}
-                <div className="border-b border-slate-300 pb-3 flex items-center justify-between text-xs text-slate-500">
-                  <span className="font-semibold text-sky-900">{page.header}</span>
-                  <span className="font-mono">VEJTHANI AI IPD/NSD 2026</span>
-                </div>
-
-                {/* Body */}
-                <div className="my-auto space-y-8 py-6">
-                  <div>
-                    <h2 className="text-lg font-extrabold text-slate-900 pb-2 border-b-2 border-slate-900">
-                      {page.title}
-                    </h2>
-                    <p className="text-xs text-slate-700 mt-3 leading-relaxed">
-                      {page.summaryText}
-                    </p>
-                  </div>
-
-                  {/* Signatories Grid */}
-                  <div className="grid grid-cols-2 gap-8 pt-4">
-                    {page.signatories.map((sig, sidx) => (
-                      <div key={sidx} className="border border-slate-300 rounded-lg p-5 bg-slate-50/50 flex flex-col justify-between h-44 text-center">
-                        <div className="text-[10px] font-bold text-sky-800 uppercase tracking-wider">
-                          {sig.roleLabel}
-                        </div>
-                        
-                        <div className="border-b border-dashed border-slate-400 mx-6 mb-2"></div>
-
-                        <div>
-                          <div className="text-xs font-bold text-slate-900">{sig.name}</div>
-                          <div className="text-[11px] text-slate-600">{sig.title}</div>
-                        </div>
-                      </div>
-                    ))}
-                  </div>
-
-                  {/* Official Seal Box */}
-                  <div className="p-4 border-2 border-slate-900 rounded-lg text-center bg-slate-100/70">
-                    <div className="text-xs font-extrabold text-slate-900 uppercase tracking-widest">
-                      ตราประทับรับรองเชิงยุทธศาสตร์ (OFFICIAL EXECUTIVE SEAL)
-                    </div>
-                    <div className="text-[11px] font-mono text-slate-700 mt-1 whitespace-pre-line">
-                      {page.officialSeal}
-                    </div>
-                  </div>
-                </div>
-
-                {/* Footer */}
-                <div className="border-t border-slate-300 pt-3 flex items-center justify-between text-[10px] text-slate-500">
-                  <span>โรงพยาบาลเวชธานี · Vejthani Hospital (ฝ่ายการพยาบาลผู้ป่วยใน IPD / NSD)</span>
-                  <span className="font-mono font-bold text-slate-700">หน้า {page.pageNumber} / 10</span>
+                  <span className="font-mono font-bold text-slate-700">หน้า 1 / {pages.length}</span>
                 </div>
               </div>
             );
@@ -263,7 +197,7 @@ export default function FormalReportView({ pages }) {
               {/* Footer */}
               <div className="border-t border-slate-300 pt-3 flex items-center justify-between text-[10px] text-slate-500">
                 <span>โรงพยาบาลเวชธานี · Vejthani Hospital (ฝ่ายการพยาบาลผู้ป่วยใน IPD / NSD)</span>
-                <span className="font-mono font-bold text-slate-700">หน้า {page.pageNumber} / 10</span>
+                <span className="font-mono font-bold text-slate-700">หน้า {page.pageNumber} / {pages.length}</span>
               </div>
             </div>
           );
