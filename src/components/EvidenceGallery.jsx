@@ -30,7 +30,7 @@ export default function EvidenceGallery({ manifest, onSelectMedia, initialCatego
 
   // Categories definition with color accents
   const categories = [
-    { id: 'all', label: 'ทั้งหมด (All Evidence)', desc: 'รวมหลักฐาน 61 รายการ', icon: Layers, badgeColor: 'bg-blue-50 text-blue-700 border-blue-200' },
+    { id: 'all', label: 'ทั้งหมด (All Evidence)', desc: 'รวมหลักฐานทุกหมวดหมู่', icon: Layers, badgeColor: 'bg-blue-50 text-blue-700 border-blue-200' },
     { id: 'portfolio', label: 'ภาพผลงาน & ผังระบบ', desc: 'สถาปัตยกรรม, CI & แชทยุทธศาสตร์', icon: Sparkles, badgeColor: 'bg-amber-50 text-amber-700 border-amber-200' },
     { id: 'prompts', label: 'AI Prompts & Chats', desc: 'ภาพหน้าจอแชท & คำสั่งระบบ', icon: Terminal, badgeColor: 'bg-purple-50 text-purple-700 border-purple-200' },
     { id: 'atmosphere', label: 'ภาพบรรยากาศการอบรมจริง', desc: 'ภาพกิจกรรมในห้องเรียน (ไม่มีแชทปน)', icon: Users, badgeColor: 'bg-emerald-50 text-emerald-700 border-emerald-200' },
@@ -114,15 +114,15 @@ export default function EvidenceGallery({ manifest, onSelectMedia, initialCatego
                 ? 'ภาพผลงานยุทธศาสตร์ สถาปัตยกรรมระบบ แดชบอร์ดสรุปผลงาน และผังการพยาบาล AI-Driven Workflow'
                 : selectedCategory === 'documents'
                 ? 'คลังเอกสารทางการ สไลด์นำเสนอหลักสูตร คู่มือการใช้งาน และโค้ดปลั๊กอิน ZIP สมบูรณ์'
-                : 'รวบรวมหลักฐานและผลงานทั้งหมด 61 รายการ คัดแยกหมวดหมู่อย่างโปร่งใส ตรวจสอบย้อนกลับได้ระดับ 100%'}
+                : `รวบรวมหลักฐานและผลงานทั้งหมด ${manifest.length} รายการ คัดแยกหมวดหมู่อย่างโปร่งใส ตรวจสอบย้อนกลับได้ระดับ 100%`}
             </p>
           </div>
 
-          {/* Phase Selector (Day 1 / Day 2 / All) */}
-          <div className="flex items-center bg-blue-50/80 p-1.5 rounded-xl border border-blue-200/80 self-start lg:self-auto shadow-inner">
+          {/* Phase Selector (Day 1 / Day 2 / Day 3 / All) */}
+          <div className="flex items-center bg-blue-50/80 p-1.5 rounded-xl border border-blue-200/80 self-start lg:self-auto shadow-inner flex-wrap gap-1">
             <button
               onClick={() => setSelectedPhase('all')}
-              className={`px-3.5 py-1.5 rounded-lg text-xs font-bold transition-all cursor-pointer ${
+              className={`px-3 py-1.5 rounded-lg text-xs font-bold transition-all cursor-pointer ${
                 selectedPhase === 'all' 
                   ? 'bg-gradient-to-r from-blue-700 to-indigo-800 text-white shadow-md shadow-blue-500/20' 
                   : 'text-slate-600 hover:text-blue-900'
@@ -132,7 +132,7 @@ export default function EvidenceGallery({ manifest, onSelectMedia, initialCatego
             </button>
             <button
               onClick={() => setSelectedPhase('Day 1')}
-              className={`px-3.5 py-1.5 rounded-lg text-xs font-bold transition-all cursor-pointer flex items-center gap-1.5 ${
+              className={`px-3 py-1.5 rounded-lg text-xs font-bold transition-all cursor-pointer flex items-center gap-1.5 ${
                 selectedPhase === 'Day 1' 
                   ? 'bg-gradient-to-r from-blue-700 to-indigo-800 text-white shadow-md shadow-blue-500/20' 
                   : 'text-slate-600 hover:text-blue-900'
@@ -143,7 +143,7 @@ export default function EvidenceGallery({ manifest, onSelectMedia, initialCatego
             </button>
             <button
               onClick={() => setSelectedPhase('Day 2')}
-              className={`px-3.5 py-1.5 rounded-lg text-xs font-bold transition-all cursor-pointer flex items-center gap-1.5 ${
+              className={`px-3 py-1.5 rounded-lg text-xs font-bold transition-all cursor-pointer flex items-center gap-1.5 ${
                 selectedPhase === 'Day 2' 
                   ? 'bg-gradient-to-r from-blue-700 to-indigo-800 text-white shadow-md shadow-blue-500/20' 
                   : 'text-slate-600 hover:text-blue-900'
@@ -151,6 +151,17 @@ export default function EvidenceGallery({ manifest, onSelectMedia, initialCatego
             >
               <Calendar className="w-3.5 h-3.5" />
               <span>Day 2: 18 ก.ย.</span>
+            </button>
+            <button
+              onClick={() => setSelectedPhase('Day 3')}
+              className={`px-3 py-1.5 rounded-lg text-xs font-bold transition-all cursor-pointer flex items-center gap-1.5 ${
+                selectedPhase === 'Day 3' 
+                  ? 'bg-gradient-to-r from-blue-700 to-indigo-800 text-white shadow-md shadow-blue-500/20' 
+                  : 'text-slate-600 hover:text-blue-900'
+              }`}
+            >
+              <Calendar className="w-3.5 h-3.5" />
+              <span>Day 3: 21 ก.ย.</span>
             </button>
           </div>
         </div>

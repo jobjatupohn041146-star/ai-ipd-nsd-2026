@@ -985,6 +985,401 @@ export const sourceManifest = [
       "Knowledge Archive",
       "Text Log"
     ]
+  },
+  {
+      "id": "port-d3-canvas-it",
+      "fileName": "canvas appส่งต่อไอที.png",
+      "title": "แนวทางการแบ่งงานที่เวิร์กที่สุดและทำได้จริง: ใช้พลัง AI + ความเชี่ยวชาญทีมไอที รพ. (การส่งต่อ Prototype สู่ IT)",
+      "category": "portfolio",
+      "phase": "Day 3",
+      "date": "2026-09-21",
+      "department": "Inpatient Nursing & Hospital IT",
+      "fileType": "image/png",
+      "description": "กลยุทธ์การแบ่งบทบาท 3 มิติ: สิ่งที่พยาบาลสั่ง AI ทำได้ทันที, สิ่งที่ต้องให้ฝ่ายไอทีอนุมัติและเชื่อมต่อฐานข้อมูล (HIS/EMR/TrakCare/SAP), และการส่งต่อต้นแบบ Canvas App ไปยังโปรแกรมเมอร์",
+      "tags": [
+          "Canvas App",
+          "IT Handover",
+          "System Architecture",
+          "Prototype",
+          "PDPA Safe",
+          "Day 3"
+      ]
+  },
+  {
+      "id": "port-d3-canvas-limit",
+      "fileName": "canvas appข้อจำกัด.png",
+      "title": "แผนผังวิเคราะห์ข้อจำกัดและการบูรณาการ Canvas App ในระบบโรงพยาบาล",
+      "category": "portfolio",
+      "phase": "Day 3",
+      "date": "2026-09-21",
+      "department": "Inpatient Nursing & Clinical Informatics",
+      "fileType": "image/png",
+      "description": "การแจกแจงขอบเขตความปลอดภัย ขีดความสามารถ และข้อควรระวังในการนำ Interactive Canvas Web Apps ไปปรับใช้ในวอร์ดผู้ป่วยใน",
+      "tags": [
+          "Canvas App",
+          "Limitations",
+          "Clinical Informatics",
+          "Safety Boundary",
+          "Day 3"
+      ]
+  },
+  {
+      "id": "port-d3-meta-limit",
+      "fileName": "ข้อจำกัดMETA APP.png",
+      "title": "แผนภาพข้อจำกัดและข้อควรระวังในการใช้งาน Meta AI / Meta App ในบริบทงานบริบาล",
+      "category": "portfolio",
+      "phase": "Day 3",
+      "date": "2026-09-21",
+      "department": "Nursing Governance & PDPA Oversight",
+      "fileType": "image/png",
+      "description": "ข้อกำหนดด้านความปลอดภัย นโยบายการคุ้มครองข้อมูลส่วนบุคคล (PDPA) และข้อจำกัดในการประมวลผลข้อมูลทางคลินิกบนโมเดลภายนอก",
+      "tags": [
+          "Meta AI",
+          "PDPA Compliance",
+          "Data Privacy",
+          "Clinical Governance",
+          "Day 3"
+      ]
+  },
+  {
+      "id": "port-d3-triad-collab",
+      "fileName": "คนระบบและเอไอ.png",
+      "title": "ผังแนวคิดสามประสาน: คนหน้างาน + AI + ไอที = โรงพยาบาลที่ดีกว่า",
+      "category": "portfolio",
+      "phase": "Day 3",
+      "date": "2026-09-21",
+      "department": "Executive Nursing & Hospital Strategy",
+      "fileType": "image/png",
+      "description": "ปรัชญาการนำเทคโนโลยีมาใช้: งานเร็วขึ้น ปลอดภัยขึ้น ลดภาระงาน ผู้ป่วยได้รับการดูแลที่ดีขึ้น เทคโนโลยีที่ดีคือเทคโนโลยีที่ทำให้คนทำงานสบายขึ้นและคนไข้ปลอดภัยขึ้น",
+      "tags": [
+          "Collaboration",
+          "Change Management",
+          "Patient Safety",
+          "Nursing Efficiency",
+          "Day 3"
+      ]
+  },
+  {
+      "id": "port-d3-short-ipd",
+      "fileName": "short ipd.png",
+      "title": "ผังคำสั่งและระบบอัตโนมัติประจำฝ่ายผู้ป่วยใน (IPD Quick Workflow & Shortcuts)",
+      "category": "portfolio",
+      "phase": "Day 3",
+      "date": "2026-09-21",
+      "department": "Inpatient Department (IPD)",
+      "fileType": "image/png",
+      "description": "โครงสร้างทางลัดการสั่งการ AI และระบบลดภาระงานเอกสารสำหรับพยาบาลประจำหอผู้ป่วยใน 13 แผนก",
+      "tags": [
+          "IPD Workflow",
+          "Shortcuts",
+          "Nursing Automation",
+          "Inpatient Care",
+          "Day 3"
+      ]
+  },
+  {
+      "id": "port-d3-short-nsd",
+      "fileName": "short NSD.png",
+      "title": "ผังคำสั่งและระบบอัตโนมัติฝ่ายพัฒนาทรัพยากรบุคคลพยาบาล (NSD Quick Workflow & Shortcuts)",
+      "category": "portfolio",
+      "phase": "Day 3",
+      "date": "2026-09-21",
+      "department": "Nursing Service Department (NSD)",
+      "fileType": "image/png",
+      "description": "สถาปัตยกรรมทางลัดการทำงานของฝ่ายการพยาบาล การติดตามสมรรถนะบุคลากร และการพัฒนาวิชาชีพทางการพยาบาลต่อเนื่อง",
+      "tags": [
+          "NSD Workflow",
+          "Shortcuts",
+          "HR Development",
+          "Nursing Competency",
+          "Day 3"
+      ]
+  },
+  {
+      "id": "port-d3-shortcut-1",
+      "fileName": "shortcut 1.png",
+      "title": "สถาปัตยกรรมทางลัดการสั่งการ AI และโครงสร้างข้อมูลการพยาบาล (AI Clinical Shortcut Engine)",
+      "category": "portfolio",
+      "phase": "Day 3",
+      "date": "2026-09-21",
+      "department": "IPD & NSD Nursing Informatics",
+      "fileType": "image/png",
+      "description": "แบบจำลองความเร็วและโครงสร้างปุ่มลัดสำหรับเชื่อมต่อคำสั่ง Prompt ทางการแพทย์สู่การประมวลผลผลลัพธ์แบบเรียลไทม์",
+      "tags": [
+          "AI Shortcut",
+          "Informatics",
+          "Data Structure",
+          "Clinical Prompt",
+          "Day 3"
+      ]
+  },
+  {
+      "id": "port-d3-learning-path",
+      "fileName": "เรียน.png",
+      "title": "ผังขั้นตอนการเรียนรู้และการฝึกอบรมเชิงปฏิบัติการ AI Nursing Masterclass (Learning Journey)",
+      "category": "portfolio",
+      "phase": "Day 3",
+      "date": "2026-09-21",
+      "department": "Nursing Education & KM",
+      "fileType": "image/png",
+      "description": "แผนภาพเส้นทางการเรียนรู้ของพยาบาลแกนนำ ตั้งแต่ระดับพื้นฐาน การสร้าง Gem/Prompt จนถึงการพัฒนา Canvas App ใช้งานจริง",
+      "tags": [
+          "Learning Journey",
+          "Education",
+          "Competency Path",
+          "Masterclass",
+          "Day 3"
+      ]
+  },
+  {
+      "id": "port-d3-screenshot-live",
+      "fileName": "Screenshot 2569-09-21 at 08.15.53.png",
+      "title": "ภาพบันทึกหน้าจอผลการทดสอบระบบและการประเมินความพร้อม (Day 3 Evaluation Live Screen)",
+      "category": "portfolio",
+      "phase": "Day 3",
+      "date": "2026-09-21",
+      "department": "IPD-NSD Informatics Team",
+      "fileType": "image/png",
+      "description": "ภาพหลักฐานการทดสอบระบบและมอนิเตอร์ความพร้อมของแอปพลิเคชันต้นแบบระหว่างการอบรมวันที่ 21 กันยายน 2569",
+      "tags": [
+          "System Test",
+          "Evaluation",
+          "Verification",
+          "Day 3"
+      ]
+  },
+  {
+      "id": "atm-d3-1",
+      "fileName": "LINE_ALBUM_Training 210926_260921_1.jpg",
+      "title": "บรรยากาศการอบรมเชิงปฏิบัติการ Day 3: การระดมสมองและพัฒนา Canvas App",
+      "category": "atmosphere",
+      "phase": "Day 3",
+      "date": "2026-09-21",
+      "department": "IPD / NSD / พยาบาลแกนนำ 13 แผนก",
+      "fileType": "image/jpeg",
+      "description": "ภาพบรรยากาศห้องเรียนการอบรมเชิงปฏิบัติการวันที่ 3 พยาบาลแกนนำร่วมกันระดมความคิดและทดลองเขียนคำสั่งสร้างระบบต้นแบบ",
+      "tags": [
+          "Training Day 3",
+          "Workshop",
+          "Canvas App",
+          "Atmosphere",
+          "Day 3"
+      ]
+  },
+  {
+      "id": "atm-d3-2",
+      "fileName": "LINE_ALBUM_Training 210926_260921_2.jpg",
+      "title": "การฝึกปฏิบัติการสร้าง Digital SOP และการส่งต่อแนวคิดสู่ทีมไอที",
+      "category": "atmosphere",
+      "phase": "Day 3",
+      "date": "2026-09-21",
+      "department": "IPD / NSD Nursing Leaders",
+      "fileType": "image/jpeg",
+      "description": "พยาบาลวิชาชีพแกนนำฝึกสร้างคู่มือขั้นตอนการปฏิบัติงานดิจิทัล (Digital SOP) และทดลองรันระบบจำลองบนแล็ปท็อป",
+      "tags": [
+          "Digital SOP",
+          "Hands-on",
+          "Nursing Leaders",
+          "Classroom",
+          "Day 3"
+      ]
+  },
+  {
+      "id": "atm-d3-3",
+      "fileName": "LINE_ALBUM_Training 210926_260921_3.jpg",
+      "title": "การทดสอบระบบประเมินความพึงพอใจและแบบสำรวจออนไลน์สำหรับหอผู้ป่วยใน",
+      "category": "atmosphere",
+      "phase": "Day 3",
+      "date": "2026-09-21",
+      "department": "Inpatient Department (IPD)",
+      "fileType": "image/jpeg",
+      "description": "ทีมพยาบาล IPD ทดลองสร้างแบบประเมินความพึงพอใจผู้ป่วย 20 มิติ และวิเคราะห์ผลลัพธ์แบบเรียลไทม์",
+      "tags": [
+          "Survey System",
+          "Patient Experience",
+          "Evaluation",
+          "Day 3"
+      ]
+  },
+  {
+      "id": "atm-d3-4",
+      "fileName": "LINE_ALBUM_Training 210926_260921_4.jpg",
+      "title": "การแลกเปลี่ยนเรียนรู้แบบรายกลุ่ม (Peer Coaching & Co-Creation)",
+      "category": "atmosphere",
+      "phase": "Day 3",
+      "date": "2026-09-21",
+      "department": "Nursing Service Department (NSD)",
+      "fileType": "image/jpeg",
+      "description": "การปรึกษาหารืออย่างใกล้ชิดระหว่างพยาบาลต่างแผนก เพื่อเชื่อมโยงกระบวนการทำงานจากห้องผ่าตัด สู่หอผู้ป่วยวิกฤต และวอร์ดทั่วไป",
+      "tags": [
+          "Peer Coaching",
+          "Co-Creation",
+          "Cross-Functional",
+          "Day 3"
+      ]
+  },
+  {
+      "id": "atm-d3-5",
+      "fileName": "LINE_ALBUM_Training 210926_260921_5.jpg",
+      "title": "การนำเสนอผลงานต้นแบบระบบช่วยทำงานพยาบาลบน Canvas App",
+      "category": "atmosphere",
+      "phase": "Day 3",
+      "date": "2026-09-21",
+      "department": "Inpatient Nursing & Clinical Teams",
+      "fileType": "image/jpeg",
+      "description": "ตัวแทนพยาบาลนำเสนอผลงาน Web Application บน Canvas ที่ออกแบบขึ้นเพื่อแก้ปัญหาการส่งเวรและคำนวณคะแนนผู้ป่วย",
+      "tags": [
+          "Presentation",
+          "Prototype Demo",
+          "Canvas Web App",
+          "Day 3"
+      ]
+  },
+  {
+      "id": "atm-d3-6",
+      "fileName": "LINE_ALBUM_Training 210926_260921_6.jpg",
+      "title": "บทสรุปความสำเร็จการอบรม Day 3 พร้อมก้าวสู่การประยุกต์ใช้จริงในโรงพยาบาล",
+      "category": "atmosphere",
+      "phase": "Day 3",
+      "date": "2026-09-21",
+      "department": "ผู้เข้าร่วมอบรมแกนนำทั้งหมด",
+      "fileType": "image/jpeg",
+      "description": "ภาพสะท้อนความมุ่งมั่นและความพร้อมของพยาบาลแกนนำเวชธานีในการขับเคลื่อนนวัตกรรม AI เพื่อความปลอดภัยของผู้ป่วย",
+      "tags": [
+          "Success",
+          "Closing Day 3",
+          "Commitment",
+          "Day 3"
+      ]
+  },
+  {
+      "id": "doc-d3-digital-sop",
+      "fileName": "สร้างDIGITAL SOP สองแผนก.docx",
+      "title": "ชุดคำสั่งและแนวทางปฏิบัติ: การสร้าง DIGITAL SOP สำหรับสองแผนก (IPD & NSD)",
+      "category": "documents",
+      "phase": "Day 3",
+      "date": "2026-09-21",
+      "department": "IPD & NSD Nursing Administration",
+      "fileType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "description": "เอกสารมาตรฐานรวบรวมคำสั่งและขั้นตอนการเปลี่ยน Standard Operating Procedures (SOP) กระดาษ ให้เป็น Interactive Digital Guidelines บน AI",
+      "tags": [
+          "Digital SOP",
+          "Prompt Engineering",
+          "Guidelines",
+          "Standardization",
+          "DOCX",
+          "Day 3"
+      ]
+  },
+  {
+      "id": "doc-d3-workflow-app",
+      "fileName": "สร้างระบบช่วยทำงาน สองแผนก.docx",
+      "title": "ชุดคำสั่งสร้างระบบ Web Application บน Canvas ช่วยงานพยาบาลสองแผนก (20 ระบบ)",
+      "category": "documents",
+      "phase": "Day 3",
+      "date": "2026-09-21",
+      "department": "Inpatient Nursing & NSD",
+      "fileType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "description": "รวมสเปกคำสั่งแบบละเอียดสำหรับการสร้าง Canvas Web App ทางการพยาบาล เช่น ระบบส่งเวร ISBAR, ระบบคำนวณดัชนีภาระงาน, ระบบแจ้งเตือนวิกฤต, และระบบบริหารเตียง",
+      "tags": [
+          "Canvas App Specification",
+          "Workflow Engine",
+          "Automation",
+          "20 Systems",
+          "DOCX",
+          "Day 3"
+      ]
+  },
+  {
+      "id": "doc-d3-knowledge-test",
+      "fileName": "สร้างแบบทดสอบความรู้ สองแผนก.docx",
+      "title": "ชุดคำสั่งสร้างระบบแบบทดสอบความรู้บุคลากรทางการพยาบาล (Clinical Competency Assessment)",
+      "category": "documents",
+      "phase": "Day 3",
+      "date": "2026-09-21",
+      "department": "Nursing Competency & Education (NSD)",
+      "fileType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "description": "ข้อกำหนดและโครงสร้างคำสั่ง AI สำหรับออกข้อสอบ วัดระดับความรู้ และประเมินสมรรถนะพยาบาลรายบุคคลตามมาตรฐาน JCI",
+      "tags": [
+          "Competency Testing",
+          "Examination Engine",
+          "Nursing Education",
+          "DOCX",
+          "Day 3"
+      ]
+  },
+  {
+      "id": "doc-d3-survey-eval",
+      "fileName": "สร้างแบบประเมิน แบบสำรวจ สองแผนก.docx",
+      "title": "ชุดคำสั่งสร้างระบบแบบประเมินและแบบสำรวจงานบริการทางการพยาบาล (20 ระบบ)",
+      "category": "documents",
+      "phase": "Day 3",
+      "date": "2026-09-21",
+      "department": "Quality Improvement & Inpatient Nursing",
+      "fileType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "description": "คลังคำสั่งสร้างระบบแบบประเมินและสำรวจความพึงพอใจ 20 ด้าน ครอบคลุมทั้งประสบการณ์ผู้ป่วย ญาติ การดูแลแผล การส่งต่อ และความผูกพันบุคลากร",
+      "tags": [
+          "Evaluation Engine",
+          "Survey System",
+          "Quality Improvement",
+          "20 Modules",
+          "DOCX",
+          "Day 3"
+      ]
+  },
+  {
+      "id": "doc-d3-ipd-satisfaction",
+      "fileName": "แบบประเมินความพึงพอใจipd.docx",
+      "title": "แบบประเมินประสบการณ์และความพึงพอใจการรับบริการผู้ป่วยใน 20 มิติ (IPD Patient Experience)",
+      "category": "documents",
+      "phase": "Day 3",
+      "date": "2026-09-21",
+      "department": "Inpatient Department (IPD)",
+      "fileType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "description": "แบบสำรวจความพึงพอใจผู้ป่วยในอย่างละเอียด 20 ด้าน พร้อมเกณฑ์การให้คะแนนและระบบประมวลผลข้อเสนอแนะอัตโนมัติ",
+      "tags": [
+          "Patient Satisfaction",
+          "20 Dimensions",
+          "IPD Experience",
+          "DOCX",
+          "Day 3"
+      ]
+  },
+  {
+      "id": "doc-d3-voice-ipd",
+      "fileName": "VOICE IPD.docx",
+      "title": "ข้อเสนอแนะและเสียงสะท้อนจากพยาบาลฝ่ายผู้ป่วยใน (Voice of IPD Nurses - Comprehensive Needs)",
+      "category": "documents",
+      "phase": "Day 3",
+      "date": "2026-09-21",
+      "department": "Inpatient Department (IPD)",
+      "fileType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "description": "เอกสารสังเคราะห์ความต้องการ ความคาดหวัง และแนวทางการแก้ปัญหาหน้างานของพยาบาลประจำหอผู้ป่วยใน 13 แผนก",
+      "tags": [
+          "Voice of Customer",
+          "IPD Needs",
+          "Qualitative Feedback",
+          "DOCX",
+          "Day 3"
+      ]
+  },
+  {
+      "id": "doc-d3-voice-nsd",
+      "fileName": "VOICE NSD.docx",
+      "title": "ข้อเสนอแนะและเสียงสะท้อนจากฝ่ายพัฒนาทรัพยากรบุคคลการพยาบาล (Voice of NSD Leaders)",
+      "category": "documents",
+      "phase": "Day 3",
+      "date": "2026-09-21",
+      "department": "Nursing Service Department (NSD)",
+      "fileType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "description": "เอกสารสังเคราะห์ทิศทางการพัฒนาทุนมนุษย์ทางการพยาบาล แผนการฝึกอบรมต่อเนื่อง และการติดตามประเมินผลสัมฤทธิ์ระดับโรงพยาบาล",
+      "tags": [
+          "Voice of Leadership",
+          "NSD Strategy",
+          "HR Development",
+          "DOCX",
+          "Day 3"
+      ]
   }
 ];
 

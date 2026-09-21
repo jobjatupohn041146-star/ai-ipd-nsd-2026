@@ -219,3 +219,83 @@ De-identification: ข้อมูลคนไข้จริง (ชื่อ�
 16:03 PIN💍💎 画像
 18:08 Innirin604 アルバムに4件のコンテンツを追加しました。
 18:43 Innirin604 「Training 18/09/26」アルバムを作成しました。
+2026.09.21 月曜日
+07:59 ชีพธรรม ไตร คำวิเศษณ์ สวัสดีทุกท่านครับ วันนี้เรียน AI agent ฝากดาวน์โหลดและติดตั้งให้เรียบร้อยนะครับ
+07:59 ชีพธรรม ไตร คำวิเศษณ์ ดาวน์โหลด google antigravity 2.0
+https://antigravity.google/product/antigravity-2/
+ดาวน์โหลด chatGPT codex
+https://chatgpt.com/codex/
+11:17 ชีพธรรม ไตร คำวิเศษณ์ สวัสดีทุกท่านครับ วันนี้เรียน AI agent ฝากดาวน์โหลดและติดตั้งให้เรียบร้อยนะครับ
+11:17 ชีพธรรม ไตร คำวิเศษณ์ ดาวน์โหลด google antigravity 2.0
+https://antigravity.google/product/antigravity-2/
+ดาวน์โหลด chatGPT codex
+https://chatgpt.com/codex/
+11:17 ชีพธรรม ไตร คำวิเศษณ์ ฝากติดตั้ง skill เครื่องมือคิดไอเดียสร้างแอพและระบบครับผม
+11:17 ชีพธรรม ไตร คำวิเศษณ์ ไอเดียแอพของแต่ละท่านที่ควรสร้างครับผม
+11:17 ชีพธรรม ไตร คำวิเศษณ์ ตัวอย่างเว็บไซค์ที่พัฒนาโดย google antigravity 
+11:17 ชีพธรรม ไตร คำวิเศษณ์ https://cheeptham333.github.io/ai-mba-handbook/
+11:17 ชีพธรรม ไตร คำวิเศษณ์ สร้างจาก งบการเงินเวชธานี
+11:17 ชีพธรรม ไตร คำวิเศษณ์ https://vejthanicfo.netlify.app/
+11:17 ชีพธรรม ไตร คำวิเศษณ์ 画像
+11:17 ชีพธรรม ไตร คำวิเศษณ์ vibe-coding-idea-architect (21).zip
+14:08 Innirin604 https://radiant-gelato-5b4b7f.netlify.app/
+14:12 Innirin604 https://celadon-cupcake-90afc4.netlify.app/
+14:21 BeE_SEA💝💖 https://radiant-gelato-5b4b7f.netlify.app/
+14:21 BeE_SEA💝💖 https://celadon-cupcake-90afc4.netlify.app/
+14:30 Innirin604 https://jovial-cannoli-0628a6.netlify.app/
+14:40 PIN💍💎 -------------
+14:41 PIN💍💎 画像
+14:41 PIN💍💎 VOICE IPD.docx
+14:41 PIN💍💎 VOICE NSD.docx
+14:46 Innirin604 https://or-alpha-six.vercel.app/
+14:47 Innirin604 https://rococo-lily-5a43f3.netlify.app
+14:47 Innirin604 https://peppy-bublanina-18df59.netlify.app
+14:47 Innirin604 https://vejthaniipd.netlify.app/
+15:03 Innirin604 https://6ab0e464a66ab6d2e5ad158a--velvety-frangollo-1f9de0.netlify.app/
+15:10 Innirin604 การใช้งาน Google Antigravity
+สร้าง Folder และ นำเอกสารที่ต้องการให้สร้างระบบไว้รวมในแหล่งเดียวกัน และสร้าง project กด  เพิ่ม folder เข้าไปเพื่อให้ระบบรวมงานไว้ที่เดียวกัน
+
+1. Grill me —— คำสั่ง Prompt 
+2. กด submit ให้ถึง implementation plan อ่านเพื่อศึกษาว่าระบบจะทำงานอะไรให้บ้าง
+3. กด Preceed สั่งให้ทำงาน หรือ พิมพ์คำว่าสร้างต่อ 
+4. กด submit ไปให้ถึงระบบที่มีข้อความขึ้นมาว่า index.html เพื่อเปิดเว็บไซค์  หรือ เข้าไปกดที่folders
+5. ให้ตรวจสอบเว็บไซค์ ดราฟ 1 ให้เรียบร้อย เราสามารถพิมพ์สั่งงานแก้ไข เมนูหรือให้เพิ่มอะไรเป็นภาษามนุษย์ หรือสั่งงานด้วยเสียง
+6. หลังจากตรวจ ดราฟแรกแล้ว เพื่อให้เว็บไซค์เป็น CI เวชธานี ให้ใช้ /browser  ช่วยสร้างเว็บไซค์ให้เป็น CI เวชธานี ถ้าจะให้ดีต้องมี logo แนบเข้าไปด้วย แล้วอัพเดทข้อมูลที่จำเป็น ถ้ามีข้อความขึ้นมา ให้กด Proceed anyway หลังจากอัพโหลดขึ้นไปเมื่อเสร็จแล้วให้กด Refresh 
+7. ลงทะเบียนเพื่ออัพโหลดเข้าที่ www.netlify.com  หรือ  www.vercel.com
+8. ก่อนอัพโหลดให้ใช้คำสั่ง /grillme พิมพ์ว่า ฉันกำลังจะอัพโหลดขึ้น netlify.com ช่วยตรวจสอบครั้งสุดท้าย ควรมีอะไรเพิ่มเติมบ้าง และ ช่วยทำให้ google ค้นไม่เจอ
+9. ลาก folder เข้าไปที่ netlify หรือ vercel  
+10. ตรวจสอบและใช้งาน ถ้าแก้ไขให้กลับไป google antigravity และอัพโหลดขึ้นไปใหม่ ตามข้อ 9  
+15:10 Innirin604 新しいノートを作成しました。
+16:09 Pinky 💗 https://www.meta.ai/share/a/c816085e-ffcc-4478-a97b-03d87c4febd2
+16:10 Sujitra NICU https://www.meta.ai/share/a/b7c9ecbe-3858-4110-8b6a-9582b227a260
+16:10 Meltymasda https://www.meta.ai/share/a/20d168b2-ed27-4b98-b208-6525c5c4fb22
+16:10 Aud Lueprasert11 https://www.meta.ai/share/a/a70ceeee-4264-4ebf-b53c-53286133ee7f
+16:11 PIN💍💎 สร้างระบบช่วยทำงาน สองแผนก.docx
+16:11 Ranurse https://www.meta.ai/share/a/b94a44e5-04f2-4691-8b4c-d8ca6ee3d76e
+16:11 YingYu💸 https://www.meta.ai/share/a/4af73348-dee6-4932-8492-a8d804f2f009
+16:11 Daranee_Pui https://www.meta.ai/share/a/b6faed63-924f-4486-8604-cb8ecc72f42c
+16:12 eineyes https://www.meta.ai/share/a/0d8d53d5-a840-47b3-9bc9-351bc4b8cd28
+16:19 PIMDAW🌷SOM💖💎629♾ https://www.meta.ai/share/a/d0102967-96c9-41aa-ab8f-2e144e5ede02
+16:20 PIN💍💎 สร้างแบบทดสอบความรู้ สองแผนก.docx
+16:20 PIN💍💎 แบบประเมินความพึงพอใจipd.docx
+16:20 Aud Lueprasert11 https://share.gemini.google/w2Xy1d8oyzCN
+16:23 PIN💍💎 สร้างแบบประเมิน แบบสำรวจ สองแผนก.docx
+16:27 BeE_SEA💝💖 vejthani_ipd_bed_patient_flow_manager (1) 1.zip
+16:28 BeE_SEA💝💖 เปิดจากใน notebook ได้ค่ะ ถ้าเปิดในมือถือจะแสดงผลไม่เหมือนกับ notebook ค่ะ
+16:38 Innirin604 https://www.meta.ai/share/a/c3c1c927-28d2-400b-b214-b422b80b0519
+16:38 Innirin604 https://www.meta.ai/share/a/90a49dc6-7dcc-4989-970a-2fe5ba7565c2
+16:40 PIN💍💎 รวมไฟล์ไอเดียอีกคครั้งคะ
+16:40 PIN💍💎 สร้างDIGITAL SOP สองแผนก.docx
+16:40 PIN💍💎 สร้างแบบทดสอบความรู้ สองแผนก.docx
+16:40 PIN💍💎 สร้างแบบประเมิน แบบสำรวจ สองแผนก.docx
+16:40 PIN💍💎 สร้างระบบช่วยทำงาน สองแผนก.docx
+16:41 PIN💍💎 画像
+16:41 PIN💍💎 画像
+16:41 PIN💍💎 画像
+16:42 PIN💍💎 画像
+16:42 PIN💍💎 画像
+16:42 PIN💍💎 画像
+16:42 PIN💍💎 画像
+16:43 YingYu💸 https://www.meta.ai/share/a/44fb6064-f552-49a0-9153-cfd4c89c7d7c
+17:08 Innirin604 「ประกอบ Training 21/09/26」アルバムを作成しました。
+17:10 Innirin604 「Training 21/09/26」アルバムを作成しました。

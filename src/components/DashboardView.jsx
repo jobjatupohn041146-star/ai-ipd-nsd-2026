@@ -77,7 +77,7 @@ export default function DashboardView({ setCurrentTab, onOpenEvidence }) {
               <span>แดชบอร์ดสรุปผลการอบรม AI Strategy & Inpatient Nursing Workflow</span>
             </h2>
             <p className="text-xs sm:text-sm text-slate-600 mt-1 max-w-3xl leading-relaxed">
-              ภาพรวมตัวชี้วัดความสำเร็จจากการอบรมเชิงปฏิบัติการ 2 วัน (14 และ 18 ก.ย. 2569) ของพยาบาลวิชาชีพแกนนำ 13 แผนก โรงพยาบาลเวชธานี
+              ภาพรวมตัวชี้วัดความสำเร็จจากการอบรมเชิงปฏิบัติการ 3 วัน (14, 18 และ 21 ก.ย. 2569) ของพยาบาลวิชาชีพแกนนำ 13 แผนก โรงพยาบาลเวชธานี
             </p>
           </div>
 
@@ -517,9 +517,9 @@ export default function DashboardView({ setCurrentTab, onOpenEvidence }) {
                   <text x="310" y="150" textAnchor="end" fill="#e11d48" fontSize="8" fontWeight="900" fontFamily="sans-serif">2 วินาที</text>
 
                   {/* X Axis Stages */}
-                  <text x="50" y="174" textAnchor="middle" fill="#64748b" fontSize="7.5" fontWeight="600" fontFamily="sans-serif">ก่อนอบรม</text>
-                  <text x="115" y="174" textAnchor="middle" fill="#64748b" fontSize="7.5" fontWeight="600" fontFamily="sans-serif">Day 1 บรรยาย</text>
-                  <text x="180" y="174" textAnchor="middle" fill="#64748b" fontSize="7.5" fontWeight="600" fontFamily="sans-serif">Day 2 เวิร์กช็อป</text>
+                  <text x="50" y="174" textAnchor="middle" fill="#64748b" fontSize="7.5" fontWeight="600" fontFamily="sans-serif">Day 1 บรรยาย</text>
+                  <text x="115" y="174" textAnchor="middle" fill="#64748b" fontSize="7.5" fontWeight="600" fontFamily="sans-serif">Day 2 เวิร์กช็อป</text>
+                  <text x="180" y="174" textAnchor="middle" fill="#64748b" fontSize="7.5" fontWeight="600" fontFamily="sans-serif">Day 3 Canvas</text>
                   <text x="245" y="174" textAnchor="middle" fill="#64748b" fontSize="7.5" fontWeight="600" fontFamily="sans-serif">เริ่มใช้ในวอร์ด</text>
                   <text x="310" y="174" textAnchor="middle" fill="#1e40af" fontSize="7.5" fontWeight="800" fontFamily="sans-serif">Full Scale 2569</text>
                 </svg>
